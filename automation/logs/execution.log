@@ -1,0 +1,1775 @@
+2025-10-05 03:04:28  Suite started: Firefox
+2025-10-05 03:04:28  Suite started: Chrome
+2025-10-05 03:04:42  Starting Test: billPayScenarios [thread=27]
+2025-10-05 03:04:50  Starting Test: billPayScenarios [thread=28]
+2025-10-05 03:04:57  Test Passed: billPayScenarios
+2025-10-05 03:05:05  Test Passed: billPayScenarios
+2025-10-05 03:05:11  Starting Test: billPayScenarios [thread=28]
+2025-10-05 03:05:16  Starting Test: billPayScenarios [thread=27]
+2025-10-05 03:05:20  Test Passed: billPayScenarios
+2025-10-05 03:05:27  Test Passed: billPayScenarios
+2025-10-05 03:05:34  Starting Test: requestLoan [thread=28]
+2025-10-05 03:05:41  Starting Test: requestLoan [thread=27]
+2025-10-05 03:05:43  Test Passed: requestLoan
+2025-10-05 03:05:49  Test Passed: requestLoan
+2025-10-05 03:05:56  Starting Test: testRegistration [thread=28]
+2025-10-05 03:06:02  Starting Test: testRegistration [thread=27]
+2025-10-05 03:06:03  Test Passed: testRegistration
+2025-10-05 03:06:09  Test Passed: testRegistration
+2025-10-05 03:06:17  Starting Test: testRegistration [thread=27]
+2025-10-05 03:06:20  Starting Test: testRegistration [thread=28]
+2025-10-05 03:06:25  Test Passed: testRegistration
+2025-10-05 03:06:27  Test Passed: testRegistration
+2025-10-05 03:06:32  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 03:06:36  Test Passed: testSuccessfulLogin
+2025-10-05 03:06:44  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 03:06:46  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 03:06:46  Test Passed: testSuccessfulLogin
+2025-10-05 03:06:47  Test Passed: testSuccessfulLogin
+2025-10-05 03:06:52  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 03:06:52  Test Passed: testSuccessfulLogin
+2025-10-05 03:06:59  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 03:06:59  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:03  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 03:07:03  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:11  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 03:07:11  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:18  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 03:07:18  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:21  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 03:07:21  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:22  Test Failed: transferFunds | reason: 
+[public void com.parabank.tests.TransferTests.transferFunds(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: transferFunds([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) john,(java.lang.String) demo,(java.lang.String) 5,(java.lang.String) success,(java.lang.String) ,(java.lang.String) ]
+2025-10-05 03:07:23  Driver not initialized, skipping screenshot for: transferFunds
+2025-10-05 03:07:27  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 03:07:34  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 03:07:34  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:34  Test Passed: verifyAccountOverview
+2025-10-05 03:07:43  Starting Test: findTransactions [thread=27]
+2025-10-05 03:07:54  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 03:07:54  Test Passed: testSuccessfulLogin
+2025-10-05 03:07:59  Test Passed: findTransactions
+2025-10-05 03:08:06  Starting Test: findTransactions [thread=27]
+2025-10-05 03:08:11  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 03:08:11  Test Passed: testSuccessfulLogin
+2025-10-05 03:08:15  Test Failed: transferFunds | reason: 
+[public void com.parabank.tests.TransferTests.transferFunds(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: transferFunds([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) john,(java.lang.String) demo,(java.lang.String) 5,(java.lang.String) success,(java.lang.String) ,(java.lang.String) ]
+2025-10-05 03:08:15  Driver not initialized, skipping screenshot for: transferFunds
+2025-10-05 03:08:27  Test Passed: findTransactions
+2025-10-05 03:08:52  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 03:09:02  Test Passed: verifyAccountOverview
+2025-10-05 03:09:04  Starting Test: paymentHistory [thread=27]
+2025-10-05 03:09:28  Starting Test: findTransactions [thread=28]
+2025-10-05 03:09:41  Test Passed: findTransactions
+2025-10-05 03:09:54  Test Failed: paymentHistory | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1346968c47fa54c5291d3c826afdefb7, clearElement {id=f.EE7F6FCA1E5CD54A77391AA8B94A13B7.d.4EBC5CD7540CA29125F704EBEB0A4352.e.104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50311/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1346968c47fa54c5291d3c826afdefb7)] -> xpath: //input[@id='amount']]
+Session ID: 1346968c47fa54c5291d3c826afdefb7
+2025-10-05 03:10:02  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T27_20251005_030957.png
+2025-10-05 03:10:04  Starting Test: findTransactions [thread=28]
+2025-10-05 03:10:08  Starting Test: paymentHistory [thread=27]
+2025-10-05 03:10:14  Test Passed: findTransactions
+2025-10-05 03:10:18  Test Passed: paymentHistory
+2025-10-05 03:10:30  Starting Test: testBlankLogin [thread=27]
+2025-10-05 03:10:30  Test Passed: testBlankLogin
+2025-10-05 03:10:50  Starting Test: testBlankLogin [thread=27]
+2025-10-05 03:10:50  Test Passed: testBlankLogin
+2025-10-05 03:10:53  Starting Test: paymentHistory [thread=28]
+2025-10-05 03:11:01  Starting Test: testBlankLogin [thread=27]
+2025-10-05 03:11:01  Test Passed: testBlankLogin
+2025-10-05 03:11:03  Test Passed: paymentHistory
+2025-10-05 03:11:06  Starting Test: testBlankLogin [thread=27]
+2025-10-05 03:11:06  Test Passed: testBlankLogin
+2025-10-05 03:11:13  Starting Test: testBlankLogin [thread=27]
+2025-10-05 03:11:13  Test Passed: testBlankLogin
+2025-10-05 03:11:21  Starting Test: paymentHistory [thread=28]
+2025-10-05 03:11:27  Starting Test: testBlankLogin [thread=27]
+2025-10-05 03:11:28  Test Passed: testBlankLogin
+2025-10-05 03:11:32  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 03:11:34  Test Passed: testRegistrationRequiredValidation
+2025-10-05 03:11:40  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 03:11:41  Test Passed: paymentHistory
+2025-10-05 03:11:48  Test Passed: transferTransactionHistory
+2025-10-05 03:11:55  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 03:11:58  Starting Test: testBlankLogin [thread=28]
+2025-10-05 03:11:58  Test Passed: testBlankLogin
+2025-10-05 03:12:08  Test Passed: transferTransactionHistory
+2025-10-05 03:12:15  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 03:12:17  Starting Test: testBlankLogin [thread=28]
+2025-10-05 03:12:17  Test Passed: testBlankLogin
+2025-10-05 03:12:31  Test Passed: verifyAccountDetailsPage
+2025-10-05 03:12:33  Starting Test: testBlankLogin [thread=28]
+2025-10-05 03:12:33  Test Passed: testBlankLogin
+2025-10-05 03:12:40  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 03:12:48  Test Passed: billPayRequiredFieldValidation
+2025-10-05 03:12:51  Starting Test: testBlankLogin [thread=28]
+2025-10-05 03:12:51  Test Passed: testBlankLogin
+2025-10-05 03:12:57  Starting Test: contactForm [thread=27]
+2025-10-05 03:13:01  Test Passed: contactForm
+2025-10-05 03:13:08  Starting Test: testLogout [thread=27]
+2025-10-05 03:13:12  Starting Test: testBlankLogin [thread=28]
+2025-10-05 03:13:12  Test Passed: testBlankLogin
+2025-10-05 03:13:13  Test Passed: testLogout
+2025-10-05 03:13:19  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 03:13:30  Starting Test: testBlankLogin [thread=28]
+2025-10-05 03:13:30  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 03:13:30  Test Failed: transferInputValidationCases | reason: 
+[public void com.parabank.tests.TransferTests.transferInputValidationCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: transferInputValidationCases([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) john,(java.lang.String) demo,(java.lang.String) 5,(java.lang.String) success,(java.lang.String) ,(java.lang.String) ]
+2025-10-05 03:13:30  Driver not initialized, skipping screenshot for: transferInputValidationCases
+2025-10-05 03:13:30  Test Passed: testBlankLogin
+2025-10-05 03:13:36  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 03:13:43  Test Passed: verifyActivityFiltering
+2025-10-05 03:13:48  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 03:13:51  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 03:13:51  Test Passed: testRegistrationRequiredValidation
+2025-10-05 03:13:55  Test Passed: verifyActivityFiltering
+2025-10-05 03:14:02  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 03:14:09  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 03:14:11  Test Passed: billPayInvalidAmount
+2025-10-05 03:14:17  Test Passed: transferTransactionHistory
+2025-10-05 03:14:17  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 03:14:24  Test Passed: testForgotLoginInfo
+2025-10-05 03:14:30  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 03:14:34  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 03:14:44  Test Passed: transferTransactionHistory
+2025-10-05 03:14:49  Test Failed: testRegistrationDuplicateUsername | reason: expected [true] but found [false]
+2025-10-05 03:14:49  Screenshot saved: D:\Capstone\automation\output\screenshots\testRegistrationDuplicateUsername_FAIL_T27_20251005_031449.png
+2025-10-05 03:14:55  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 03:15:06  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 03:15:10  Test Passed: verifyAccountDetailsPage
+2025-10-05 03:15:22  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 03:15:26  Test Passed: billPayRequiredFieldValidation
+2025-10-05 03:15:38  Starting Test: contactForm [thread=28]
+2025-10-05 03:15:40  Test Passed: contactForm
+2025-10-05 03:15:41  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (12d4fb95d18e06bd56e2ebb1cf430fcc)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59545/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12d4fb95d18e06bd56e2ebb1cf430fcc
+2025-10-05 03:15:41  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_031541.png
+2025-10-05 03:15:49  Starting Test: updateProfile [thread=27]
+2025-10-05 03:15:56  Test Passed: updateProfile
+2025-10-05 03:15:58  Starting Test: testLogout [thread=28]
+2025-10-05 03:16:03  Test Passed: testLogout
+2025-10-05 03:16:03  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 03:16:08  Test Passed: verifyOpenNewAccount
+2025-10-05 03:16:14  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 03:16:19  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 03:16:22  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 03:16:23  Test Passed: verifyOpenNewAccount
+2025-10-05 03:16:24  Test Failed: transferInputValidationCases | reason: 
+[public void com.parabank.tests.TransferTests.transferInputValidationCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: transferInputValidationCases([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) john,(java.lang.String) demo,(java.lang.String) 5,(java.lang.String) success,(java.lang.String) ,(java.lang.String) ]
+2025-10-05 03:16:24  Driver not initialized, skipping screenshot for: transferInputValidationCases
+2025-10-05 03:16:30  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 03:16:39  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 03:16:42  Test Passed: verifyActivityFiltering
+2025-10-05 03:16:52  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 03:16:58  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 03:17:00  Starting Test: responsiveness [thread=27]
+2025-10-05 03:17:00  Test Passed: responsiveness
+2025-10-05 03:17:05  Test Passed: verifyActivityFiltering
+2025-10-05 03:17:06  Starting Test: responsiveness [thread=27]
+2025-10-05 03:17:07  Test Passed: responsiveness
+2025-10-05 03:17:11  Starting Test: responsiveness [thread=27]
+2025-10-05 03:17:13  Test Passed: responsiveness
+2025-10-05 03:17:19  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 03:17:25  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 03:17:30  Test Passed: billPayInvalidAmount
+2025-10-05 03:17:43  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 03:17:43  Test Failed: transferShowsConfirmationMessage | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (cbb4c85faf32b2ba7cbb3dd1ea4a511a)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60121/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbb4c85faf32b2ba7cbb3dd1ea4a511a
+2025-10-05 03:17:44  Screenshot saved: D:\Capstone\automation\output\screenshots\transferShowsConfirmationMessage_FAIL_T27_20251005_031744.png
+2025-10-05 03:17:46  Test Passed: testForgotLoginInfo
+2025-10-05 03:17:50  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 03:17:54  Test Passed: verifyBalanceCalculations
+2025-10-05 03:18:00  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 03:18:05  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 03:18:06  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 03:18:12  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 03:18:14  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 03:18:28  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 03:18:37  Test Failed: verifyBalancesChangeAfterTransfer | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (d1665994fc9d3471c039adb4b9ec1b38)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60363/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1665994fc9d3471c039adb4b9ec1b38
+2025-10-05 03:18:37  Screenshot saved: D:\Capstone\automation\output\screenshots\verifyBalancesChangeAfterTransfer_FAIL_T27_20251005_031837.png
+2025-10-05 03:18:37  Suite finished: Chrome
+2025-10-05 03:18:37  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 03:18:37  Summary -> Total: 83 | Passed: 77 | Failed: 9 | Skipped: 0 | Pass%(all): 92.77% | Pass%(executed): 89.53%
+2025-10-05 03:19:11  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (7c0c7978-a8dd-4831-87e7-d14bf1ee6864)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.3, moz:accessibilityChecks: false, moz:buildID: 20250929153833, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7492, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7c0c7978-a8dd-4831-87e7-d14bf1ee6864
+2025-10-05 03:19:11  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_031911.png
+2025-10-05 03:19:20  Starting Test: updateProfile [thread=28]
+2025-10-05 03:19:23  Test Passed: updateProfile
+2025-10-05 03:19:33  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 03:19:38  Test Passed: verifyOpenNewAccount
+2025-10-05 03:19:57  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 03:20:02  Test Passed: verifyOpenNewAccount
+2025-10-05 03:20:16  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 03:20:30  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 03:20:41  Starting Test: responsiveness [thread=28]
+2025-10-05 03:20:43  Test Passed: responsiveness
+2025-10-05 03:20:52  Starting Test: responsiveness [thread=28]
+2025-10-05 03:20:54  Test Passed: responsiveness
+2025-10-05 03:21:04  Starting Test: responsiveness [thread=28]
+2025-10-05 03:21:05  Test Passed: responsiveness
+2025-10-05 03:21:15  Starting Test: transferShowsConfirmationMessage [thread=28]
+2025-10-05 03:21:21  Test Passed: transferShowsConfirmationMessage
+2025-10-05 03:21:31  Starting Test: verifyBalanceCalculations [thread=28]
+2025-10-05 03:21:34  Test Passed: verifyBalanceCalculations
+2025-10-05 03:21:48  Starting Test: verifyOverviewTotalMatchesSum [thread=28]
+2025-10-05 03:21:52  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 03:22:03  Starting Test: verifyBalancesChangeAfterTransfer [thread=28]
+2025-10-05 03:22:09  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 03:22:11  Suite finished: Firefox
+2025-10-05 03:22:11  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 03:22:11  Summary -> Total: 94 | Passed: 88 | Failed: 10 | Skipped: 0 | Pass%(all): 93.62% | Pass%(executed): 89.80%
+2025-10-05 04:13:25  Suite started: Chrome
+2025-10-05 04:13:25  Suite started: Firefox
+2025-10-05 04:13:33  Starting Test: billPayScenarios [thread=27]
+2025-10-05 04:13:41  Starting Test: billPayScenarios [thread=28]
+2025-10-05 04:13:46  Test Passed: billPayScenarios
+2025-10-05 04:13:47  Test Passed: billPayScenarios
+2025-10-05 04:13:54  Starting Test: billPayScenarios [thread=27]
+2025-10-05 04:14:00  Starting Test: billPayScenarios [thread=28]
+2025-10-05 04:14:05  Test Passed: billPayScenarios
+2025-10-05 04:14:05  Test Passed: billPayScenarios
+2025-10-05 04:14:14  Starting Test: requestLoan [thread=27]
+2025-10-05 04:14:18  Starting Test: requestLoan [thread=28]
+2025-10-05 04:14:22  Test Passed: requestLoan
+2025-10-05 04:14:22  Test Passed: requestLoan
+2025-10-05 04:14:26  Starting Test: testRegistration [thread=27]
+2025-10-05 04:14:35  Starting Test: testRegistration [thread=28]
+2025-10-05 04:14:37  Test Passed: testRegistration
+2025-10-05 04:14:39  Test Passed: testRegistration
+2025-10-05 04:14:42  Starting Test: testRegistration [thread=27]
+2025-10-05 04:14:52  Starting Test: testRegistration [thread=28]
+2025-10-05 04:15:08  Test Passed: testRegistration
+2025-10-05 04:15:13  Test Failed: testRegistration | reason: Did not land on Accounts Overview after registration. expected [true] but found [false]
+2025-10-05 04:15:14  Screenshot saved: D:\Capstone\automation\output\screenshots\testRegistration_FAIL_T27_20251005_041514.png
+2025-10-05 04:15:18  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 04:15:22  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 04:15:23  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:26  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:32  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 04:15:32  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:38  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 04:15:38  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:39  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 04:15:39  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:45  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 04:15:45  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:53  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 04:15:53  Test Passed: testSuccessfulLogin
+2025-10-05 04:15:55  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 04:15:55  Test Passed: testSuccessfulLogin
+2025-10-05 04:16:02  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 04:16:02  Test Passed: testSuccessfulLogin
+2025-10-05 04:16:07  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 04:16:07  Test Passed: testSuccessfulLogin
+2025-10-05 04:16:15  Starting Test: transferFunds [thread=27]
+2025-10-05 04:16:20  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 04:16:20  Test Passed: testSuccessfulLogin
+2025-10-05 04:16:32  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 04:16:32  Test Passed: testSuccessfulLogin
+2025-10-05 04:16:32  Test Passed: transferFunds
+2025-10-05 04:16:40  Starting Test: transferFunds [thread=27]
+2025-10-05 04:16:46  Starting Test: transferFunds [thread=28]
+2025-10-05 04:16:54  Test Passed: transferFunds
+2025-10-05 04:16:59  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 04:17:01  Test Passed: transferFunds
+2025-10-05 04:17:03  Test Passed: verifyAccountOverview
+2025-10-05 04:17:09  Starting Test: findTransactions [thread=27]
+2025-10-05 04:17:13  Starting Test: transferFunds [thread=28]
+2025-10-05 04:17:21  Test Passed: findTransactions
+2025-10-05 04:17:22  Test Passed: transferFunds
+2025-10-05 04:17:26  Starting Test: findTransactions [thread=27]
+2025-10-05 04:17:34  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 04:17:38  Test Passed: verifyAccountOverview
+2025-10-05 04:17:49  Starting Test: findTransactions [thread=28]
+2025-10-05 04:17:59  Test Failed: findTransactions | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afe4872761e75351c908601974a3ed54, clearElement {id=f.168135365C2ED335AE45B0552684FBA6.d.3DA2FD5EE19D1C5832571CA5EE6570E2.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54674/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (afe4872761e75351c908601974a3ed54)] -> xpath: //input[@id='amount']]
+Session ID: afe4872761e75351c908601974a3ed54
+2025-10-05 04:17:59  Screenshot saved: D:\Capstone\automation\output\screenshots\findTransactions_FAIL_T27_20251005_041759.png
+2025-10-05 04:18:03  Test Passed: findTransactions
+2025-10-05 04:18:05  Starting Test: paymentHistory [thread=27]
+2025-10-05 04:18:13  Starting Test: findTransactions [thread=28]
+2025-10-05 04:18:21  Test Passed: paymentHistory
+2025-10-05 04:18:26  Starting Test: paymentHistory [thread=27]
+2025-10-05 04:18:30  Test Failed: findTransactions | reason: Element <input id="amount" class="input"> could not be scrolled into view
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78f2c31c-a19d-41fc-9ae5-88caf90dd71d, clearElement {id=a8850af9-c6ff-44ff-86be-487f59066ea2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.3, moz:accessibilityChecks: false, moz:buildID: 20250929153833, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9656, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (78f2c31c-a19d-41fc-9ae5-88caf90dd71d)] -> xpath: //input[@id='amount']]
+Session ID: 78f2c31c-a19d-41fc-9ae5-88caf90dd71d
+2025-10-05 04:18:30  Screenshot saved: D:\Capstone\automation\output\screenshots\findTransactions_FAIL_T28_20251005_041830.png
+2025-10-05 04:18:42  Starting Test: paymentHistory [thread=28]
+2025-10-05 04:18:50  Test Passed: paymentHistory
+2025-10-05 04:18:55  Test Failed: paymentHistory | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a85855da1a04c4aa015423a50e6a531, clearElement {id=f.DCF6FA4DF0F2CCC2D8242D5E5DFC28F9.d.543BDD95AB9EAEB1CC6236E0AC4083DA.e.112}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54900/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3a85855da1a04c4aa015423a50e6a531)] -> xpath: //input[@id='amount']]
+Session ID: 3a85855da1a04c4aa015423a50e6a531
+2025-10-05 04:18:56  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T27_20251005_041856.png
+2025-10-05 04:19:00  Starting Test: paymentHistory [thread=28]
+2025-10-05 04:19:03  Starting Test: testBlankLogin [thread=27]
+2025-10-05 04:19:03  Test Passed: testBlankLogin
+2025-10-05 04:19:11  Starting Test: testBlankLogin [thread=27]
+2025-10-05 04:19:11  Test Passed: testBlankLogin
+2025-10-05 04:19:16  Starting Test: testBlankLogin [thread=27]
+2025-10-05 04:19:16  Test Passed: testBlankLogin
+2025-10-05 04:19:21  Starting Test: testBlankLogin [thread=27]
+2025-10-05 04:19:21  Test Passed: testBlankLogin
+2025-10-05 04:19:22  Test Failed: paymentHistory | reason: Element <input id="amount" class="input"> could not be scrolled into view
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0fc7b352-56bb-4a71-a20d-5027461d3e57, clearElement {id=daa9b384-0fc9-410b-9b36-8e4ad0680b5f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.3, moz:accessibilityChecks: false, moz:buildID: 20250929153833, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14572, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (0fc7b352-56bb-4a71-a20d-5027461d3e57)] -> xpath: //input[@id='amount']]
+Session ID: 0fc7b352-56bb-4a71-a20d-5027461d3e57
+2025-10-05 04:19:23  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T28_20251005_041923.png
+2025-10-05 04:19:25  Starting Test: testBlankLogin [thread=27]
+2025-10-05 04:19:25  Test Passed: testBlankLogin
+2025-10-05 04:19:31  Starting Test: testBlankLogin [thread=27]
+2025-10-05 04:19:34  Test Passed: testBlankLogin
+2025-10-05 04:19:36  Starting Test: testBlankLogin [thread=28]
+2025-10-05 04:19:36  Test Passed: testBlankLogin
+2025-10-05 04:19:41  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 04:19:43  Test Passed: testRegistrationRequiredValidation
+2025-10-05 04:19:49  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 04:19:51  Starting Test: testBlankLogin [thread=28]
+2025-10-05 04:19:51  Test Passed: testBlankLogin
+2025-10-05 04:20:01  Test Passed: transferTransactionHistory
+2025-10-05 04:20:04  Starting Test: testBlankLogin [thread=28]
+2025-10-05 04:20:04  Test Passed: testBlankLogin
+2025-10-05 04:20:11  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 04:20:16  Starting Test: testBlankLogin [thread=28]
+2025-10-05 04:20:16  Test Passed: testBlankLogin
+2025-10-05 04:20:25  Test Passed: transferTransactionHistory
+2025-10-05 04:20:29  Starting Test: testBlankLogin [thread=28]
+2025-10-05 04:20:29  Test Passed: testBlankLogin
+2025-10-05 04:20:34  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 04:20:41  Starting Test: testBlankLogin [thread=28]
+2025-10-05 04:20:42  Test Passed: testBlankLogin
+2025-10-05 04:20:42  Test Passed: verifyAccountDetailsPage
+2025-10-05 04:20:48  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 04:20:55  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 04:20:57  Test Passed: testRegistrationRequiredValidation
+2025-10-05 04:21:00  Test Passed: billPayRequiredFieldValidation
+2025-10-05 04:21:09  Starting Test: contactForm [thread=27]
+2025-10-05 04:21:11  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 04:21:13  Test Passed: contactForm
+2025-10-05 04:21:18  Starting Test: testLogout [thread=27]
+2025-10-05 04:21:27  Test Passed: testLogout
+2025-10-05 04:21:29  Test Passed: transferTransactionHistory
+2025-10-05 04:21:31  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 04:21:39  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 04:21:42  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 04:21:45  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 04:21:45  Test Passed: transferInputValidationCases
+2025-10-05 04:21:50  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 04:21:55  Test Passed: transferTransactionHistory
+2025-10-05 04:22:05  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 04:22:13  Test Passed: verifyAccountDetailsPage
+2025-10-05 04:22:23  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 04:22:31  Test Passed: billPayRequiredFieldValidation
+2025-10-05 04:22:35  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (fffbd8cb60153e6c13d9d30c57d54e76)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56783/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fffbd8cb60153e6c13d9d30c57d54e76
+2025-10-05 04:22:36  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T27_20251005_042236.png
+2025-10-05 04:22:41  Starting Test: contactForm [thread=28]
+2025-10-05 04:22:41  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 04:22:44  Test Passed: contactForm
+2025-10-05 04:22:54  Starting Test: testLogout [thread=28]
+2025-10-05 04:22:54  Test Passed: verifyActivityFiltering
+2025-10-05 04:22:58  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 04:23:03  Test Passed: testLogout
+2025-10-05 04:23:13  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 04:23:15  Test Passed: verifyActivityFiltering
+2025-10-05 04:23:16  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 04:23:22  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 04:23:29  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 04:23:29  Test Passed: transferInputValidationCases
+2025-10-05 04:23:38  Test Passed: billPayInvalidAmount
+2025-10-05 04:23:45  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 04:23:46  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 04:23:48  Test Passed: testForgotLoginInfo
+2025-10-05 04:23:51  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 04:24:06  Test Failed: testRegistrationDuplicateUsername | reason: expected [true] but found [false]
+2025-10-05 04:24:06  Screenshot saved: D:\Capstone\automation\output\screenshots\testRegistrationDuplicateUsername_FAIL_T27_20251005_042406.png
+2025-10-05 04:24:12  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 04:24:32  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (68beec34-f2c2-4b45-b7dc-c08af47abbdf)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.3, moz:accessibilityChecks: false, moz:buildID: 20250929153833, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14072, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 68beec34-f2c2-4b45-b7dc-c08af47abbdf
+2025-10-05 04:24:33  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T28_20251005_042433.png
+2025-10-05 04:24:52  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 04:24:58  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (80d61495ce7b73d900eb24f4d2132123)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63822/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80d61495ce7b73d900eb24f4d2132123
+2025-10-05 04:24:59  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_042459.png
+2025-10-05 04:25:00  Test Passed: verifyActivityFiltering
+2025-10-05 04:25:12  Starting Test: updateProfile [thread=27]
+2025-10-05 04:25:28  Test Passed: updateProfile
+2025-10-05 04:25:29  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 04:25:35  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 04:25:38  Test Passed: verifyActivityFiltering
+2025-10-05 04:25:45  Test Passed: verifyOpenNewAccount
+2025-10-05 04:25:56  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 04:26:01  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 04:26:08  Test Passed: billPayInvalidAmount
+2025-10-05 04:26:16  Test Passed: verifyOpenNewAccount
+2025-10-05 04:26:23  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 04:26:26  Test Passed: testForgotLoginInfo
+2025-10-05 04:26:31  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 04:26:47  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 04:26:54  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 04:27:01  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 04:27:03  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 04:27:08  Starting Test: responsiveness [thread=27]
+2025-10-05 04:27:09  Test Passed: responsiveness
+2025-10-05 04:27:14  Starting Test: responsiveness [thread=27]
+2025-10-05 04:27:14  Test Passed: responsiveness
+2025-10-05 04:27:19  Starting Test: responsiveness [thread=27]
+2025-10-05 04:27:19  Test Passed: responsiveness
+2025-10-05 04:27:23  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 04:27:27  Test Passed: transferShowsConfirmationMessage
+2025-10-05 04:27:30  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 04:27:35  Test Passed: verifyBalanceCalculations
+2025-10-05 04:27:39  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 04:27:42  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 04:27:46  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 04:27:47  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (cc0129cf-304a-4bef-91a7-1d34e2b7dc6d)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.3, moz:accessibilityChecks: false, moz:buildID: 20250929153833, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18704, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: cc0129cf-304a-4bef-91a7-1d34e2b7dc6d
+2025-10-05 04:27:47  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_042747.png
+2025-10-05 04:27:53  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 04:27:54  Suite finished: Chrome
+2025-10-05 04:27:54  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 04:27:54  Summary -> Total: 91 | Passed: 81 | Failed: 10 | Skipped: 0 | Pass%(all): 89.01% | Pass%(executed): 89.01%
+2025-10-05 04:27:58  Starting Test: updateProfile [thread=28]
+2025-10-05 04:28:01  Test Passed: updateProfile
+2025-10-05 04:28:10  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 04:28:15  Test Passed: verifyOpenNewAccount
+2025-10-05 04:28:24  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 04:28:27  Test Passed: verifyOpenNewAccount
+2025-10-05 04:28:36  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 08:31:07  Suite started: Firefox
+2025-10-05 08:31:07  Suite started: Chrome
+2025-10-05 08:31:19  Starting Test: billPayScenarios [thread=28]
+2025-10-05 08:31:19  Test Skipped: billPayScenarios
+2025-10-05 08:31:28  Starting Test: billPayScenarios [thread=27]
+2025-10-05 08:31:35  Starting Test: billPayScenarios [thread=28]
+2025-10-05 08:31:35  Test Skipped: billPayScenarios
+2025-10-05 08:31:44  Test Passed: billPayScenarios
+2025-10-05 08:31:51  Starting Test: billPayScenarios [thread=27]
+2025-10-05 08:32:01  Test Passed: billPayScenarios
+2025-10-05 08:32:33  Starting Test: requestLoan [thread=27]
+2025-10-05 08:32:42  Test Passed: requestLoan
+2025-10-05 08:32:50  Starting Test: testRegistration [thread=27]
+2025-10-05 08:32:59  Test Passed: testRegistration
+2025-10-05 08:33:05  Starting Test: testRegistration [thread=27]
+2025-10-05 08:33:10  Test Passed: testRegistration
+2025-10-05 08:33:17  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 08:33:19  Test Passed: testSuccessfulLogin
+2025-10-05 08:33:25  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 08:33:25  Test Passed: testSuccessfulLogin
+2025-10-05 08:33:29  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 08:33:29  Test Passed: testSuccessfulLogin
+2025-10-05 08:33:37  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 08:33:37  Test Passed: testSuccessfulLogin
+2025-10-05 08:33:43  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 08:33:43  Test Passed: testSuccessfulLogin
+2025-10-05 08:33:47  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 08:33:47  Test Passed: testSuccessfulLogin
+2025-10-05 08:33:51  Starting Test: requestLoan [thread=28]
+2025-10-05 08:33:51  Test Skipped: requestLoan
+2025-10-05 08:33:52  Starting Test: transferFunds [thread=27]
+2025-10-05 08:34:04  Starting Test: testRegistration [thread=28]
+2025-10-05 08:34:07  Test Passed: transferFunds
+2025-10-05 08:34:09  Test Passed: testRegistration
+2025-10-05 08:34:18  Starting Test: transferFunds [thread=27]
+2025-10-05 08:34:24  Starting Test: testRegistration [thread=28]
+2025-10-05 08:34:29  Test Passed: testRegistration
+2025-10-05 08:34:34  Test Passed: transferFunds
+2025-10-05 08:34:43  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 08:34:49  Test Passed: verifyAccountOverview
+2025-10-05 08:34:50  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 08:34:53  Test Passed: testSuccessfulLogin
+2025-10-05 08:35:02  Starting Test: findTransactions [thread=27]
+2025-10-05 08:35:08  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 08:35:08  Test Passed: testSuccessfulLogin
+2025-10-05 08:35:23  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 08:35:23  Test Passed: testSuccessfulLogin
+2025-10-05 08:35:26  Test Passed: findTransactions
+2025-10-05 08:35:33  Starting Test: findTransactions [thread=27]
+2025-10-05 08:35:40  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 08:35:40  Test Passed: testSuccessfulLogin
+2025-10-05 08:35:54  Test Passed: findTransactions
+2025-10-05 08:35:57  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 08:35:57  Test Passed: testSuccessfulLogin
+2025-10-05 08:36:09  Starting Test: paymentHistory [thread=27]
+2025-10-05 08:36:13  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 08:36:13  Test Passed: testSuccessfulLogin
+2025-10-05 08:36:23  Test Passed: paymentHistory
+2025-10-05 08:36:41  Starting Test: paymentHistory [thread=27]
+2025-10-05 08:36:48  Starting Test: transferFunds [thread=28]
+2025-10-05 08:36:53  Test Passed: paymentHistory
+2025-10-05 08:36:54  Test Passed: transferFunds
+2025-10-05 08:37:00  Starting Test: testBlankLogin [thread=27]
+2025-10-05 08:37:00  Test Passed: testBlankLogin
+2025-10-05 08:37:07  Starting Test: transferFunds [thread=28]
+2025-10-05 08:37:11  Test Passed: transferFunds
+2025-10-05 08:37:18  Starting Test: testBlankLogin [thread=27]
+2025-10-05 08:37:18  Test Passed: testBlankLogin
+2025-10-05 08:37:25  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 08:37:28  Test Passed: verifyAccountOverview
+2025-10-05 08:37:38  Starting Test: testBlankLogin [thread=27]
+2025-10-05 08:37:38  Test Passed: testBlankLogin
+2025-10-05 08:37:45  Starting Test: findTransactions [thread=28]
+2025-10-05 08:37:45  Test Skipped: findTransactions
+2025-10-05 08:38:23  Starting Test: findTransactions [thread=28]
+2025-10-05 08:38:23  Test Skipped: findTransactions
+2025-10-05 08:38:34  Starting Test: testBlankLogin [thread=27]
+2025-10-05 08:38:34  Test Passed: testBlankLogin
+2025-10-05 08:38:43  Starting Test: testBlankLogin [thread=27]
+2025-10-05 08:38:43  Test Passed: testBlankLogin
+2025-10-05 08:38:47  Starting Test: paymentHistory [thread=28]
+2025-10-05 08:38:47  Test Skipped: paymentHistory
+2025-10-05 08:38:57  Starting Test: testBlankLogin [thread=27]
+2025-10-05 08:39:03  Starting Test: paymentHistory [thread=28]
+2025-10-05 08:39:03  Test Skipped: paymentHistory
+2025-10-05 08:39:05  Test Passed: testBlankLogin
+2025-10-05 08:39:13  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 08:39:17  Test Passed: testRegistrationRequiredValidation
+2025-10-05 08:39:20  Starting Test: testBlankLogin [thread=28]
+2025-10-05 08:39:20  Test Passed: testBlankLogin
+2025-10-05 08:39:30  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 08:39:36  Starting Test: testBlankLogin [thread=28]
+2025-10-05 08:39:36  Test Passed: testBlankLogin
+2025-10-05 08:39:46  Test Passed: transferTransactionHistory
+2025-10-05 08:39:51  Starting Test: testBlankLogin [thread=28]
+2025-10-05 08:39:51  Test Passed: testBlankLogin
+2025-10-05 08:40:01  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 08:40:07  Starting Test: testBlankLogin [thread=28]
+2025-10-05 08:40:07  Test Passed: testBlankLogin
+2025-10-05 08:40:15  Test Passed: transferTransactionHistory
+2025-10-05 08:40:23  Starting Test: testBlankLogin [thread=28]
+2025-10-05 08:40:23  Test Passed: testBlankLogin
+2025-10-05 08:40:29  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 08:40:38  Starting Test: testBlankLogin [thread=28]
+2025-10-05 08:40:39  Test Passed: testBlankLogin
+2025-10-05 08:40:42  Test Passed: verifyAccountDetailsPage
+2025-10-05 08:40:51  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 08:40:58  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 08:41:00  Test Passed: testRegistrationRequiredValidation
+2025-10-05 08:41:05  Test Passed: billPayRequiredFieldValidation
+2025-10-05 08:41:13  Starting Test: contactForm [thread=27]
+2025-10-05 08:41:18  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 08:41:21  Test Passed: contactForm
+2025-10-05 08:41:25  Test Passed: transferTransactionHistory
+2025-10-05 08:41:30  Starting Test: testLogout [thread=27]
+2025-10-05 08:41:33  Test Passed: testLogout
+2025-10-05 08:41:40  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 08:41:48  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 08:41:49  Test Passed: transferTransactionHistory
+2025-10-05 08:41:54  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 08:42:02  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 08:42:02  Test Passed: transferInputValidationCases
+2025-10-05 08:42:06  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 08:42:10  Test Passed: verifyAccountDetailsPage
+2025-10-05 08:42:16  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 08:42:26  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 08:42:26  Test Skipped: billPayRequiredFieldValidation
+2025-10-05 08:42:39  Starting Test: contactForm [thread=28]
+2025-10-05 08:42:39  Test Skipped: contactForm
+2025-10-05 08:42:53  Starting Test: testLogout [thread=28]
+2025-10-05 08:42:56  Test Passed: testLogout
+2025-10-05 08:43:00  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (73df1c86e5d75cc22fca76d045695794)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61971}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61971/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73df1c86e5d75cc22fca76d045695794
+2025-10-05 08:43:01  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T27_20251005_084301.png
+2025-10-05 08:43:20  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 08:43:20  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 08:43:25  Test Passed: verifyActivityFiltering
+2025-10-05 08:43:25  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 08:43:34  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 08:43:40  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 08:43:40  Test Passed: transferInputValidationCases
+2025-10-05 08:43:56  Test Passed: verifyActivityFiltering
+2025-10-05 08:44:02  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 08:44:09  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 08:44:14  Test Passed: billPayInvalidAmount
+2025-10-05 08:44:19  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 08:44:24  Test Passed: testForgotLoginInfo
+2025-10-05 08:44:28  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 08:44:42  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 08:44:54  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (118ea366-4042-4bf2-a00e-6cdf65ff53a2)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12832, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 118ea366-4042-4bf2-a00e-6cdf65ff53a2
+2025-10-05 08:44:55  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T28_20251005_084455.png
+2025-10-05 08:44:55  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 08:45:12  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 08:45:15  Test Passed: verifyActivityFiltering
+2025-10-05 08:45:26  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 08:45:30  Test Passed: verifyActivityFiltering
+2025-10-05 08:45:45  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (b5a617c09754fed1baeb2ef25d6cfc4b)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55522/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5a617c09754fed1baeb2ef25d6cfc4b
+2025-10-05 08:45:46  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_084546.png
+2025-10-05 08:45:49  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 08:45:49  Test Skipped: billPayInvalidAmount
+2025-10-05 08:45:56  Starting Test: updateProfile [thread=27]
+2025-10-05 08:46:10  Test Passed: updateProfile
+2025-10-05 08:46:15  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 08:46:18  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 08:46:19  Test Passed: testForgotLoginInfo
+2025-10-05 08:46:27  Test Passed: verifyOpenNewAccount
+2025-10-05 08:46:49  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 08:46:50  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 08:46:58  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 08:46:59  Test Passed: verifyOpenNewAccount
+2025-10-05 08:47:18  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 08:47:20  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 08:47:38  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 08:47:47  Starting Test: responsiveness [thread=27]
+2025-10-05 08:47:49  Test Passed: responsiveness
+2025-10-05 08:47:58  Starting Test: responsiveness [thread=27]
+2025-10-05 08:47:58  Test Passed: responsiveness
+2025-10-05 08:48:04  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (31a9086f-1f86-4432-916b-abfde742d6b5)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6524, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 31a9086f-1f86-4432-916b-abfde742d6b5
+2025-10-05 08:48:06  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_084805.png
+2025-10-05 08:48:09  Starting Test: responsiveness [thread=27]
+2025-10-05 08:48:11  Test Passed: responsiveness
+2025-10-05 08:48:18  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 08:48:23  Starting Test: updateProfile [thread=28]
+2025-10-05 08:48:23  Test Skipped: updateProfile
+2025-10-05 08:48:29  Test Passed: transferShowsConfirmationMessage
+2025-10-05 08:48:36  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 08:48:41  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 08:48:46  Test Passed: verifyOpenNewAccount
+2025-10-05 08:48:47  Test Passed: verifyBalanceCalculations
+2025-10-05 08:48:55  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 08:49:01  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 08:49:05  Test Passed: verifyOpenNewAccount
+2025-10-05 08:49:07  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 08:49:16  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 08:49:20  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 08:49:20  Test Skipped: billPayConfirmationIncludesPayeeName
+2025-10-05 08:49:29  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 08:49:37  Starting Test: responsiveness [thread=28]
+2025-10-05 08:49:37  Test Skipped: responsiveness
+2025-10-05 08:49:40  Suite finished: Chrome
+2025-10-05 08:49:41  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 08:49:41  Summary -> Total: 96 | Passed: 79 | Failed: 4 | Skipped: 13 | Pass%(all): 82.29% | Pass%(executed): 95.18%
+2025-10-05 08:49:49  Starting Test: responsiveness [thread=28]
+2025-10-05 08:49:49  Test Skipped: responsiveness
+2025-10-05 08:50:01  Starting Test: responsiveness [thread=28]
+2025-10-05 08:50:01  Test Skipped: responsiveness
+2025-10-05 08:50:13  Starting Test: transferShowsConfirmationMessage [thread=28]
+2025-10-05 08:50:17  Test Passed: transferShowsConfirmationMessage
+2025-10-05 08:50:28  Starting Test: verifyBalanceCalculations [thread=28]
+2025-10-05 08:50:32  Test Passed: verifyBalanceCalculations
+2025-10-05 08:50:42  Starting Test: verifyOverviewTotalMatchesSum [thread=28]
+2025-10-05 08:50:45  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 08:50:58  Starting Test: verifyBalancesChangeAfterTransfer [thread=28]
+2025-10-05 08:51:03  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 08:51:05  Suite finished: Firefox
+2025-10-05 08:51:05  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 08:51:05  Summary -> Total: 102 | Passed: 83 | Failed: 4 | Skipped: 15 | Pass%(all): 81.37% | Pass%(executed): 95.40%
+2025-10-05 13:26:21  Suite started: Firefox
+2025-10-05 13:26:21  Suite started: Chrome
+2025-10-05 13:26:34  Starting Test: billPayScenarios [thread=27]
+2025-10-05 13:26:42  Starting Test: billPayScenarios [thread=28]
+2025-10-05 13:26:48  Test Passed: billPayScenarios
+2025-10-05 13:26:51  Test Passed: billPayScenarios
+2025-10-05 13:26:58  Starting Test: billPayScenarios [thread=27]
+2025-10-05 13:27:05  Starting Test: billPayScenarios [thread=28]
+2025-10-05 13:27:09  Test Passed: billPayScenarios
+2025-10-05 13:27:11  Test Passed: billPayScenarios
+2025-10-05 13:27:17  Starting Test: requestLoan [thread=27]
+2025-10-05 13:27:26  Starting Test: requestLoan [thread=28]
+2025-10-05 13:27:27  Test Passed: requestLoan
+2025-10-05 13:27:30  Test Passed: requestLoan
+2025-10-05 13:27:32  Starting Test: testRegistration [thread=27]
+2025-10-05 13:27:40  Test Passed: testRegistration
+2025-10-05 13:27:45  Starting Test: testRegistration [thread=28]
+2025-10-05 13:27:50  Starting Test: testRegistration [thread=27]
+2025-10-05 13:27:51  Test Passed: testRegistration
+2025-10-05 13:27:56  Test Passed: testRegistration
+2025-10-05 13:28:03  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:28:07  Starting Test: testRegistration [thread=28]
+2025-10-05 13:28:08  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:11  Test Passed: testRegistration
+2025-10-05 13:28:14  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:28:14  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:20  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:28:20  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:26  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:28:30  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:31  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:28:31  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:36  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:28:36  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:43  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:28:43  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:44  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:28:44  Test Passed: testSuccessfulLogin
+2025-10-05 13:28:49  Starting Test: transferFunds [thread=27]
+2025-10-05 13:28:56  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:28:56  Test Passed: testSuccessfulLogin
+2025-10-05 13:29:00  Test Passed: transferFunds
+2025-10-05 13:29:06  Starting Test: transferFunds [thread=27]
+2025-10-05 13:29:09  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:29:09  Test Passed: testSuccessfulLogin
+2025-10-05 13:29:15  Test Passed: transferFunds
+2025-10-05 13:29:23  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 13:29:24  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:29:24  Test Passed: testSuccessfulLogin
+2025-10-05 13:29:27  Test Passed: verifyAccountOverview
+2025-10-05 13:29:33  Starting Test: findTransactions [thread=27]
+2025-10-05 13:29:39  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:29:39  Test Passed: testSuccessfulLogin
+2025-10-05 13:29:51  Test Passed: findTransactions
+2025-10-05 13:29:54  Starting Test: transferFunds [thread=28]
+2025-10-05 13:29:59  Test Passed: transferFunds
+2025-10-05 13:30:03  Starting Test: findTransactions [thread=27]
+2025-10-05 13:30:13  Starting Test: transferFunds [thread=28]
+2025-10-05 13:30:18  Test Passed: transferFunds
+2025-10-05 13:30:19  Test Passed: findTransactions
+2025-10-05 13:30:27  Starting Test: paymentHistory [thread=27]
+2025-10-05 13:30:32  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 13:30:35  Test Passed: verifyAccountOverview
+2025-10-05 13:30:50  Starting Test: findTransactions [thread=28]
+2025-10-05 13:30:56  Test Passed: findTransactions
+2025-10-05 13:31:06  Starting Test: findTransactions [thread=28]
+2025-10-05 13:31:11  Test Failed: paymentHistory | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ccb4b45355338c83cc449d9e503ec0d, clearElement {id=f.6841E323E90B8499DEBF6DF165C239FD.d.408DF2BFD403544EAD87C4A5BC8CFE3D.e.145}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54847/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6ccb4b45355338c83cc449d9e503ec0d)] -> xpath: //input[@id='amount']]
+Session ID: 6ccb4b45355338c83cc449d9e503ec0d
+2025-10-05 13:31:12  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T27_20251005_133112.png
+2025-10-05 13:31:15  Test Passed: findTransactions
+2025-10-05 13:31:18  Starting Test: paymentHistory [thread=27]
+2025-10-05 13:31:19  Test Failed: paymentHistory | reason: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54b90c1d10cbf5c49b6b65764ea7f4ec, isElementDisplayed {id=f.1A4C2F861288812DD8AF3AE443CFF345.d.95BC5229BDF3AF33CAD520827885E229.e.11}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55035/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (54b90c1d10cbf5c49b6b65764ea7f4ec)] -> link text: Bill Pay]
+Session ID: 54b90c1d10cbf5c49b6b65764ea7f4ec
+2025-10-05 13:31:20  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T27_20251005_133120.png
+2025-10-05 13:31:26  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:31:26  Test Passed: testBlankLogin
+2025-10-05 13:31:30  Starting Test: paymentHistory [thread=28]
+2025-10-05 13:31:36  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:31:36  Test Passed: testBlankLogin
+2025-10-05 13:31:39  Test Passed: paymentHistory
+2025-10-05 13:31:40  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:31:40  Test Passed: testBlankLogin
+2025-10-05 13:31:47  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:31:47  Test Passed: testBlankLogin
+2025-10-05 13:31:52  Starting Test: paymentHistory [thread=28]
+2025-10-05 13:31:59  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:31:59  Test Passed: testBlankLogin
+2025-10-05 13:32:00  Test Passed: paymentHistory
+2025-10-05 13:32:05  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:32:07  Test Passed: testBlankLogin
+2025-10-05 13:32:14  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:32:14  Test Passed: testBlankLogin
+2025-10-05 13:32:15  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 13:32:18  Test Passed: testRegistrationRequiredValidation
+2025-10-05 13:32:25  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 13:32:29  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:32:29  Test Passed: testBlankLogin
+2025-10-05 13:32:34  Test Passed: transferTransactionHistory
+2025-10-05 13:32:40  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 13:32:44  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:32:44  Test Passed: testBlankLogin
+2025-10-05 13:32:49  Test Passed: transferTransactionHistory
+2025-10-05 13:32:55  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 13:32:59  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:32:59  Test Passed: testBlankLogin
+2025-10-05 13:33:03  Test Passed: verifyAccountDetailsPage
+2025-10-05 13:33:10  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 13:33:14  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:33:14  Test Passed: testBlankLogin
+2025-10-05 13:33:17  Test Passed: billPayRequiredFieldValidation
+2025-10-05 13:33:22  Starting Test: contactForm [thread=27]
+2025-10-05 13:33:27  Test Passed: contactForm
+2025-10-05 13:33:28  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:33:29  Test Passed: testBlankLogin
+2025-10-05 13:33:37  Starting Test: testLogout [thread=27]
+2025-10-05 13:33:42  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 13:33:43  Test Passed: testLogout
+2025-10-05 13:33:44  Test Passed: testRegistrationRequiredValidation
+2025-10-05 13:33:50  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 13:33:57  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 13:34:00  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 13:34:05  Test Passed: transferTransactionHistory
+2025-10-05 13:34:05  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 13:34:05  Test Passed: transferInputValidationCases
+2025-10-05 13:34:11  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 13:34:18  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 13:34:24  Test Passed: transferTransactionHistory
+2025-10-05 13:34:35  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 13:34:37  Test Passed: verifyAccountDetailsPage
+2025-10-05 13:34:47  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 13:34:50  Test Passed: billPayRequiredFieldValidation
+2025-10-05 13:34:58  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (4ca91332e7042c0730f93219c4a0cb13)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52016/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ca91332e7042c0730f93219c4a0cb13
+2025-10-05 13:34:58  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T27_20251005_133458.png
+2025-10-05 13:35:00  Starting Test: contactForm [thread=28]
+2025-10-05 13:35:02  Test Passed: contactForm
+2025-10-05 13:35:12  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 13:35:15  Starting Test: testLogout [thread=28]
+2025-10-05 13:35:21  Test Passed: testLogout
+2025-10-05 13:35:28  Test Passed: verifyActivityFiltering
+2025-10-05 13:35:47  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 13:35:52  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 13:35:55  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 13:35:55  Test Passed: verifyActivityFiltering
+2025-10-05 13:36:14  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 13:36:26  Test Passed: billPayInvalidAmount
+2025-10-05 13:36:31  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 13:36:31  Test Passed: transferInputValidationCases
+2025-10-05 13:36:48  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 13:36:53  Test Passed: testForgotLoginInfo
+2025-10-05 13:37:04  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 13:37:05  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 13:37:16  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 13:37:26  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 13:37:48  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (28c0b5d8-5f00-4ef6-8970-af832cde1d24)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8684, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 28c0b5d8-5f00-4ef6-8970-af832cde1d24
+2025-10-05 13:37:48  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T28_20251005_133748.png
+2025-10-05 13:37:59  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 13:38:02  Test Passed: verifyActivityFiltering
+2025-10-05 13:38:11  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 13:38:14  Test Passed: verifyActivityFiltering
+2025-10-05 13:38:17  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (8aca2668b96eaed4d77c58658012ea08)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58874/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8aca2668b96eaed4d77c58658012ea08
+2025-10-05 13:38:17  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_133817.png
+2025-10-05 13:38:25  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 13:38:27  Starting Test: updateProfile [thread=27]
+2025-10-05 13:38:32  Test Passed: billPayInvalidAmount
+2025-10-05 13:38:33  Test Passed: updateProfile
+2025-10-05 13:38:38  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 13:38:45  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 13:38:48  Test Passed: testForgotLoginInfo
+2025-10-05 13:38:48  Test Passed: verifyOpenNewAccount
+2025-10-05 13:38:55  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 13:39:00  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 13:39:03  Test Passed: verifyOpenNewAccount
+2025-10-05 13:39:07  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 13:39:09  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 13:39:21  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 13:39:28  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 13:39:33  Starting Test: responsiveness [thread=27]
+2025-10-05 13:39:33  Test Passed: responsiveness
+2025-10-05 13:39:38  Starting Test: responsiveness [thread=27]
+2025-10-05 13:39:39  Test Passed: responsiveness
+2025-10-05 13:39:43  Starting Test: responsiveness [thread=27]
+2025-10-05 13:39:43  Test Passed: responsiveness
+2025-10-05 13:39:48  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 13:39:52  Test Passed: transferShowsConfirmationMessage
+2025-10-05 13:39:57  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 13:40:00  Test Passed: verifyBalanceCalculations
+2025-10-05 13:40:04  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (ec3b99be-aeaf-49c7-85e7-fcc21b83bdd8)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23588, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ec3b99be-aeaf-49c7-85e7-fcc21b83bdd8
+2025-10-05 13:40:04  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_134004.png
+2025-10-05 13:40:05  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 13:40:08  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 13:40:17  Starting Test: updateProfile [thread=28]
+2025-10-05 13:40:19  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 13:40:21  Test Passed: updateProfile
+2025-10-05 13:40:26  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 13:40:28  Suite finished: Chrome
+2025-10-05 13:40:28  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 13:40:28  Summary -> Total: 92 | Passed: 86 | Failed: 6 | Skipped: 0 | Pass%(all): 93.48% | Pass%(executed): 93.48%
+2025-10-05 13:40:34  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 13:40:38  Test Passed: verifyOpenNewAccount
+2025-10-05 13:40:46  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 13:40:50  Test Passed: verifyOpenNewAccount
+2025-10-05 13:41:00  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 13:41:14  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 13:41:23  Starting Test: responsiveness [thread=28]
+2025-10-05 13:41:25  Test Passed: responsiveness
+2025-10-05 13:41:34  Starting Test: responsiveness [thread=28]
+2025-10-05 13:41:35  Test Passed: responsiveness
+2025-10-05 13:41:46  Starting Test: responsiveness [thread=28]
+2025-10-05 13:41:46  Test Passed: responsiveness
+2025-10-05 13:41:57  Starting Test: transferShowsConfirmationMessage [thread=28]
+2025-10-05 13:42:02  Test Passed: transferShowsConfirmationMessage
+2025-10-05 13:42:11  Starting Test: verifyBalanceCalculations [thread=28]
+2025-10-05 13:42:14  Test Passed: verifyBalanceCalculations
+2025-10-05 13:42:23  Starting Test: verifyOverviewTotalMatchesSum [thread=28]
+2025-10-05 13:42:26  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 13:42:34  Starting Test: verifyBalancesChangeAfterTransfer [thread=28]
+2025-10-05 13:42:40  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 13:42:41  Suite finished: Firefox
+2025-10-05 13:42:41  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 13:42:41  Summary -> Total: 102 | Passed: 96 | Failed: 6 | Skipped: 0 | Pass%(all): 94.12% | Pass%(executed): 94.12%
+2025-10-05 13:53:38  Suite started: Chrome
+2025-10-05 13:53:38  Suite started: Firefox
+2025-10-05 13:53:48  Starting Test: billPayScenarios [thread=27]
+2025-10-05 13:53:59  Starting Test: billPayScenarios [thread=28]
+2025-10-05 13:54:02  Test Passed: billPayScenarios
+2025-10-05 13:54:04  Test Passed: billPayScenarios
+2025-10-05 13:54:09  Starting Test: billPayScenarios [thread=27]
+2025-10-05 13:54:11  Test Failed: billPayScenarios | reason: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89f0743f41fe8f781b6351d24bae77eb, isElementDisplayed {id=f.58165CC066725FA6AE44F1763D84DD8B.d.2C8703F84271BA2518A7ED935BE3821D.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89f0743f41fe8f781b6351d24bae77eb)] -> link text: Bill Pay]
+Session ID: 89f0743f41fe8f781b6351d24bae77eb
+2025-10-05 13:54:11  Screenshot saved: D:\Capstone\automation\output\screenshots\billPayScenarios_FAIL_T27_20251005_135411.png
+2025-10-05 13:54:19  Starting Test: billPayScenarios [thread=28]
+2025-10-05 13:54:23  Starting Test: requestLoan [thread=27]
+2025-10-05 13:54:26  Test Passed: billPayScenarios
+2025-10-05 13:54:30  Test Passed: requestLoan
+2025-10-05 13:54:37  Starting Test: testRegistration [thread=27]
+2025-10-05 13:54:42  Starting Test: requestLoan [thread=28]
+2025-10-05 13:54:46  Test Passed: requestLoan
+2025-10-05 13:54:48  Test Passed: testRegistration
+2025-10-05 13:54:56  Starting Test: testRegistration [thread=27]
+2025-10-05 13:55:01  Starting Test: testRegistration [thread=28]
+2025-10-05 13:55:05  Test Passed: testRegistration
+2025-10-05 13:55:07  Test Passed: testRegistration
+2025-10-05 13:55:17  Starting Test: testRegistration [thread=28]
+2025-10-05 13:55:21  Test Passed: testRegistration
+2025-10-05 13:55:25  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:55:29  Test Passed: testSuccessfulLogin
+2025-10-05 13:55:35  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:55:38  Test Passed: testSuccessfulLogin
+2025-10-05 13:55:42  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:55:42  Test Passed: testSuccessfulLogin
+2025-10-05 13:55:50  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:55:50  Test Passed: testSuccessfulLogin
+2025-10-05 13:55:52  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:55:52  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:01  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:56:01  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:06  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:56:06  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:11  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:56:11  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:16  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 13:56:16  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:20  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:56:20  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:26  Starting Test: transferFunds [thread=27]
+2025-10-05 13:56:31  Test Passed: transferFunds
+2025-10-05 13:56:38  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:56:38  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:40  Starting Test: transferFunds [thread=27]
+2025-10-05 13:56:45  Test Passed: transferFunds
+2025-10-05 13:56:53  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 13:56:53  Test Passed: testSuccessfulLogin
+2025-10-05 13:56:54  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 13:56:57  Test Passed: verifyAccountOverview
+2025-10-05 13:57:02  Starting Test: findTransactions [thread=27]
+2025-10-05 13:57:10  Starting Test: transferFunds [thread=28]
+2025-10-05 13:57:15  Test Passed: findTransactions
+2025-10-05 13:57:16  Test Passed: transferFunds
+2025-10-05 13:57:19  Starting Test: findTransactions [thread=27]
+2025-10-05 13:57:31  Test Passed: findTransactions
+2025-10-05 13:57:33  Starting Test: transferFunds [thread=28]
+2025-10-05 13:57:39  Starting Test: paymentHistory [thread=27]
+2025-10-05 13:57:39  Test Passed: transferFunds
+2025-10-05 13:57:56  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 13:57:59  Test Passed: verifyAccountOverview
+2025-10-05 13:58:09  Starting Test: findTransactions [thread=28]
+2025-10-05 13:58:15  Test Passed: findTransactions
+2025-10-05 13:58:18  Test Failed: paymentHistory | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [507b39780c0833db898b131af049a02e, clearElement {id=f.EBCD5DD87806292297190222288E8D71.d.12E1B74741B6D200DF946B306A02628F.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57679/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (507b39780c0833db898b131af049a02e)] -> xpath: //input[@id='amount']]
+Session ID: 507b39780c0833db898b131af049a02e
+2025-10-05 13:58:18  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T27_20251005_135818.png
+2025-10-05 13:58:26  Starting Test: paymentHistory [thread=27]
+2025-10-05 13:58:29  Starting Test: findTransactions [thread=28]
+2025-10-05 13:58:37  Test Passed: paymentHistory
+2025-10-05 13:58:39  Test Passed: findTransactions
+2025-10-05 13:58:43  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:58:43  Test Passed: testBlankLogin
+2025-10-05 13:58:49  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:58:49  Test Passed: testBlankLogin
+2025-10-05 13:58:56  Starting Test: paymentHistory [thread=28]
+2025-10-05 13:58:58  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:58:58  Test Passed: testBlankLogin
+2025-10-05 13:59:04  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:59:04  Test Passed: testBlankLogin
+2025-10-05 13:59:05  Test Passed: paymentHistory
+2025-10-05 13:59:11  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:59:11  Test Passed: testBlankLogin
+2025-10-05 13:59:17  Starting Test: testBlankLogin [thread=27]
+2025-10-05 13:59:18  Test Passed: testBlankLogin
+2025-10-05 13:59:22  Starting Test: paymentHistory [thread=28]
+2025-10-05 13:59:26  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 13:59:27  Test Passed: testRegistrationRequiredValidation
+2025-10-05 13:59:32  Test Passed: paymentHistory
+2025-10-05 13:59:33  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 13:59:40  Test Passed: transferTransactionHistory
+2025-10-05 13:59:45  Starting Test: testBlankLogin [thread=28]
+2025-10-05 13:59:45  Test Passed: testBlankLogin
+2025-10-05 13:59:48  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 14:00:00  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:00:00  Test Passed: testBlankLogin
+2025-10-05 14:00:12  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:00:12  Test Passed: testBlankLogin
+2025-10-05 14:00:24  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:00:24  Test Passed: testBlankLogin
+2025-10-05 14:00:26  Test Failed: transferTransactionHistory | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c66f0377556cc3aa57514346373360fc, clearElement {id=f.EF7FC71A3CE05D68CFC2A9DFC30378B2.d.66C3B592DEAE34B5A1087A2E97F1E4AD.e.99}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58331/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c66f0377556cc3aa57514346373360fc)] -> xpath: //input[@id='amount']]
+Session ID: c66f0377556cc3aa57514346373360fc
+2025-10-05 14:00:26  Screenshot saved: D:\Capstone\automation\output\screenshots\transferTransactionHistory_FAIL_T27_20251005_140026.png
+2025-10-05 14:00:32  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 14:00:36  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:00:36  Test Passed: testBlankLogin
+2025-10-05 14:00:39  Test Passed: verifyAccountDetailsPage
+2025-10-05 14:00:44  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 14:00:50  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:00:51  Test Passed: testBlankLogin
+2025-10-05 14:00:54  Test Passed: billPayRequiredFieldValidation
+2025-10-05 14:01:00  Starting Test: contactForm [thread=27]
+2025-10-05 14:01:05  Test Passed: contactForm
+2025-10-05 14:01:07  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 14:01:08  Test Passed: testRegistrationRequiredValidation
+2025-10-05 14:01:11  Starting Test: testLogout [thread=27]
+2025-10-05 14:01:16  Test Passed: testLogout
+2025-10-05 14:01:22  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 14:01:26  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 14:01:30  Test Passed: transferTransactionHistory
+2025-10-05 14:01:31  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 14:01:38  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 14:01:38  Test Passed: transferInputValidationCases
+2025-10-05 14:01:43  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 14:01:48  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 14:01:50  Test Passed: transferTransactionHistory
+2025-10-05 14:01:50  Test Failed: transferInputValidationCases | reason: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a450a778546449072950759f7416a9ef, isElementDisplayed {id=f.3AFA70F629C63243116A3BBB5BA4AB31.d.8DFF33373B1F71B00B6DDA02A80B9881.e.11}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59174/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a450a778546449072950759f7416a9ef)] -> link text: Transfer Funds]
+Session ID: a450a778546449072950759f7416a9ef
+2025-10-05 14:01:50  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T27_20251005_140150.png
+2025-10-05 14:01:56  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 14:02:00  Test Passed: verifyActivityFiltering
+2025-10-05 14:02:07  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 14:02:09  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 14:02:11  Test Passed: verifyAccountDetailsPage
+2025-10-05 14:02:13  Test Passed: verifyActivityFiltering
+2025-10-05 14:02:19  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 14:02:25  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 14:02:29  Test Passed: billPayRequiredFieldValidation
+2025-10-05 14:02:33  Test Passed: billPayInvalidAmount
+2025-10-05 14:02:38  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 14:02:44  Starting Test: contactForm [thread=28]
+2025-10-05 14:02:46  Test Passed: contactForm
+2025-10-05 14:02:48  Test Passed: testForgotLoginInfo
+2025-10-05 14:02:54  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 14:03:00  Starting Test: testLogout [thread=28]
+2025-10-05 14:03:03  Test Passed: testLogout
+2025-10-05 14:03:11  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 14:03:18  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 14:03:22  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 14:03:25  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 14:03:37  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 14:03:37  Test Passed: transferInputValidationCases
+2025-10-05 14:03:48  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 14:04:04  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (92f9e636f6bdf3de6a04c979186c4869)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59736}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59736/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92f9e636f6bdf3de6a04c979186c4869
+2025-10-05 14:04:04  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_140404.png
+2025-10-05 14:04:08  Starting Test: updateProfile [thread=27]
+2025-10-05 14:04:11  Test Passed: updateProfile
+2025-10-05 14:04:17  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 14:04:21  Test Passed: verifyOpenNewAccount
+2025-10-05 14:04:25  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 14:04:29  Test Passed: verifyOpenNewAccount
+2025-10-05 14:04:31  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (789654af-1e24-4146-acb4-3d58462dff41)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25412, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 789654af-1e24-4146-acb4-3d58462dff41
+2025-10-05 14:04:31  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T28_20251005_140431.png
+2025-10-05 14:04:32  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 14:04:46  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 14:04:49  Test Passed: verifyActivityFiltering
+2025-10-05 14:04:52  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 14:05:00  Starting Test: responsiveness [thread=27]
+2025-10-05 14:05:01  Test Passed: responsiveness
+2025-10-05 14:05:02  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 14:05:06  Test Passed: verifyActivityFiltering
+2025-10-05 14:05:08  Starting Test: responsiveness [thread=27]
+2025-10-05 14:05:10  Test Passed: responsiveness
+2025-10-05 14:05:16  Starting Test: responsiveness [thread=27]
+2025-10-05 14:05:17  Test Passed: responsiveness
+2025-10-05 14:05:22  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 14:05:28  Test Passed: billPayInvalidAmount
+2025-10-05 14:05:29  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 14:05:31  Test Failed: transferShowsConfirmationMessage | reason: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b61781c34baf18e6f752bb6c9ddf50c, isElementDisplayed {id=f.5509B758718FF2B312D33E68F5B9A267.d.8EE33EF5DE532A9A83556EFD9C715047.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64694/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6b61781c34baf18e6f752bb6c9ddf50c)] -> link text: Transfer Funds]
+Session ID: 6b61781c34baf18e6f752bb6c9ddf50c
+2025-10-05 14:05:31  Screenshot saved: D:\Capstone\automation\output\screenshots\transferShowsConfirmationMessage_FAIL_T27_20251005_140531.png
+2025-10-05 14:05:37  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 14:05:42  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 14:05:43  Test Passed: verifyBalanceCalculations
+2025-10-05 14:05:45  Test Passed: testForgotLoginInfo
+2025-10-05 14:05:59  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 14:06:03  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 14:06:07  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 14:06:13  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 14:06:20  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 14:06:37  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 14:06:40  Suite finished: Chrome
+2025-10-05 14:06:42  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 14:06:43  Summary -> Total: 90 | Passed: 83 | Failed: 7 | Skipped: 0 | Pass%(all): 92.22% | Pass%(executed): 92.22%
+2025-10-05 14:06:51  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 14:07:34  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (661c82cc-a8d7-437b-9a70-2e0047b12460)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6728, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 661c82cc-a8d7-437b-9a70-2e0047b12460
+2025-10-05 14:07:34  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_140734.png
+2025-10-05 14:07:46  Starting Test: updateProfile [thread=28]
+2025-10-05 14:07:50  Test Passed: updateProfile
+2025-10-05 14:08:03  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 14:08:07  Test Passed: verifyOpenNewAccount
+2025-10-05 14:08:19  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 14:08:22  Test Passed: verifyOpenNewAccount
+2025-10-05 14:08:31  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 14:08:45  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 14:08:54  Starting Test: responsiveness [thread=28]
+2025-10-05 14:08:55  Test Passed: responsiveness
+2025-10-05 14:09:04  Starting Test: responsiveness [thread=28]
+2025-10-05 14:09:05  Test Passed: responsiveness
+2025-10-05 14:09:14  Starting Test: responsiveness [thread=28]
+2025-10-05 14:09:15  Test Passed: responsiveness
+2025-10-05 14:09:26  Starting Test: transferShowsConfirmationMessage [thread=28]
+2025-10-05 14:09:29  Test Passed: transferShowsConfirmationMessage
+2025-10-05 14:09:38  Starting Test: verifyBalanceCalculations [thread=28]
+2025-10-05 14:09:41  Test Passed: verifyBalanceCalculations
+2025-10-05 14:09:51  Starting Test: verifyOverviewTotalMatchesSum [thread=28]
+2025-10-05 14:09:54  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 14:10:03  Starting Test: verifyBalancesChangeAfterTransfer [thread=28]
+2025-10-05 14:10:08  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 14:10:09  Suite finished: Firefox
+2025-10-05 14:10:09  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 14:10:09  Summary -> Total: 102 | Passed: 94 | Failed: 8 | Skipped: 0 | Pass%(all): 92.16% | Pass%(executed): 92.16%
+2025-10-05 14:19:09  Suite started: Firefox
+2025-10-05 14:19:09  Suite started: Chrome
+2025-10-05 14:19:20  Starting Test: billPayScenarios [thread=27]
+2025-10-05 14:19:28  Starting Test: billPayScenarios [thread=28]
+2025-10-05 14:19:33  Test Passed: billPayScenarios
+2025-10-05 14:19:34  Test Passed: billPayScenarios
+2025-10-05 14:19:42  Starting Test: billPayScenarios [thread=27]
+2025-10-05 14:19:48  Starting Test: billPayScenarios [thread=28]
+2025-10-05 14:19:53  Test Passed: billPayScenarios
+2025-10-05 14:19:56  Test Passed: billPayScenarios
+2025-10-05 14:20:02  Starting Test: requestLoan [thread=27]
+2025-10-05 14:20:08  Starting Test: requestLoan [thread=28]
+2025-10-05 14:20:11  Test Passed: requestLoan
+2025-10-05 14:20:13  Test Passed: requestLoan
+2025-10-05 14:20:18  Starting Test: testRegistration [thread=27]
+2025-10-05 14:20:28  Starting Test: testRegistration [thread=28]
+2025-10-05 14:20:28  Test Passed: testRegistration
+2025-10-05 14:20:32  Test Passed: testRegistration
+2025-10-05 14:20:36  Starting Test: testRegistration [thread=27]
+2025-10-05 14:20:45  Test Passed: testRegistration
+2025-10-05 14:20:47  Starting Test: testRegistration [thread=28]
+2025-10-05 14:20:51  Test Passed: testRegistration
+2025-10-05 14:20:57  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:21:01  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:06  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:21:09  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:21:09  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:11  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:16  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:21:16  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:22  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:21:22  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:25  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:21:25  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:31  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:21:31  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:39  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:21:39  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:41  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:21:41  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:49  Starting Test: transferFunds [thread=27]
+2025-10-05 14:21:54  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:21:54  Test Passed: testSuccessfulLogin
+2025-10-05 14:21:58  Test Passed: transferFunds
+2025-10-05 14:22:03  Starting Test: transferFunds [thread=27]
+2025-10-05 14:22:09  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:22:09  Test Passed: testSuccessfulLogin
+2025-10-05 14:22:11  Test Passed: transferFunds
+2025-10-05 14:22:18  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 14:22:23  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:22:23  Test Passed: testSuccessfulLogin
+2025-10-05 14:22:24  Test Passed: verifyAccountOverview
+2025-10-05 14:22:31  Starting Test: findTransactions [thread=27]
+2025-10-05 14:22:37  Starting Test: transferFunds [thread=28]
+2025-10-05 14:22:41  Test Passed: transferFunds
+2025-10-05 14:22:48  Test Passed: findTransactions
+2025-10-05 14:22:53  Starting Test: findTransactions [thread=27]
+2025-10-05 14:22:59  Starting Test: transferFunds [thread=28]
+2025-10-05 14:23:05  Test Passed: transferFunds
+2025-10-05 14:23:07  Test Passed: findTransactions
+2025-10-05 14:23:15  Starting Test: paymentHistory [thread=27]
+2025-10-05 14:23:21  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 14:23:25  Test Passed: verifyAccountOverview
+2025-10-05 14:23:28  Test Passed: paymentHistory
+2025-10-05 14:23:37  Starting Test: paymentHistory [thread=27]
+2025-10-05 14:23:44  Starting Test: findTransactions [thread=28]
+2025-10-05 14:23:48  Test Passed: paymentHistory
+2025-10-05 14:23:54  Test Passed: findTransactions
+2025-10-05 14:23:54  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:23:54  Test Passed: testBlankLogin
+2025-10-05 14:24:00  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:24:00  Test Passed: testBlankLogin
+2025-10-05 14:24:08  Starting Test: findTransactions [thread=28]
+2025-10-05 14:24:10  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:24:10  Test Passed: testBlankLogin
+2025-10-05 14:24:16  Test Passed: findTransactions
+2025-10-05 14:24:18  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:24:18  Test Passed: testBlankLogin
+2025-10-05 14:24:24  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:24:24  Test Passed: testBlankLogin
+2025-10-05 14:24:31  Starting Test: paymentHistory [thread=28]
+2025-10-05 14:24:33  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:24:35  Test Passed: testBlankLogin
+2025-10-05 14:24:40  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 14:24:40  Test Passed: paymentHistory
+2025-10-05 14:24:43  Test Passed: testRegistrationRequiredValidation
+2025-10-05 14:24:49  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 14:24:54  Starting Test: paymentHistory [thread=28]
+2025-10-05 14:25:01  Test Passed: paymentHistory
+2025-10-05 14:25:15  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:25:15  Test Passed: testBlankLogin
+2025-10-05 14:25:26  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:25:26  Test Passed: testBlankLogin
+2025-10-05 14:25:32  Test Failed: transferTransactionHistory | reason: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f69b42b36a1cacfbcafab74f9102b06c, clearElement {id=f.A34DEEEB791E30FF017BDDD6E36D2DF4.d.CDE65C4CA94C8BB22293C46A11A17A88.e.126}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63592/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f69b42b36a1cacfbcafab74f9102b06c)] -> xpath: //input[@id='amount']]
+Session ID: f69b42b36a1cacfbcafab74f9102b06c
+2025-10-05 14:25:33  Screenshot saved: D:\Capstone\automation\output\screenshots\transferTransactionHistory_FAIL_T27_20251005_142533.png
+2025-10-05 14:25:38  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:25:38  Test Passed: testBlankLogin
+2025-10-05 14:25:42  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 14:25:52  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:25:52  Test Passed: testBlankLogin
+2025-10-05 14:25:55  Test Passed: transferTransactionHistory
+2025-10-05 14:26:02  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 14:26:07  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:26:07  Test Passed: testBlankLogin
+2025-10-05 14:26:11  Test Passed: verifyAccountDetailsPage
+2025-10-05 14:26:21  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:26:22  Test Passed: testBlankLogin
+2025-10-05 14:26:24  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 14:26:29  Test Passed: billPayRequiredFieldValidation
+2025-10-05 14:26:38  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 14:26:40  Test Passed: testRegistrationRequiredValidation
+2025-10-05 14:26:40  Starting Test: contactForm [thread=27]
+2025-10-05 14:26:43  Test Passed: contactForm
+2025-10-05 14:26:50  Starting Test: testLogout [thread=27]
+2025-10-05 14:26:53  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 14:26:58  Test Passed: testLogout
+2025-10-05 14:27:01  Test Passed: transferTransactionHistory
+2025-10-05 14:27:04  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 14:27:14  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 14:27:17  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 14:27:21  Test Passed: transferTransactionHistory
+2025-10-05 14:27:22  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 14:27:22  Test Passed: transferInputValidationCases
+2025-10-05 14:27:28  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 14:27:34  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 14:27:38  Test Passed: verifyAccountDetailsPage
+2025-10-05 14:27:50  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 14:27:54  Test Passed: billPayRequiredFieldValidation
+2025-10-05 14:28:04  Starting Test: contactForm [thread=28]
+2025-10-05 14:28:06  Test Passed: contactForm
+2025-10-05 14:28:16  Starting Test: testLogout [thread=28]
+2025-10-05 14:28:17  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (cdce0c9d253b1d2462038c235ab0e966)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51624/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdce0c9d253b1d2462038c235ab0e966
+2025-10-05 14:28:17  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T27_20251005_142817.png
+2025-10-05 14:28:19  Test Passed: testLogout
+2025-10-05 14:28:24  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 14:28:29  Test Passed: verifyActivityFiltering
+2025-10-05 14:28:33  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 14:28:37  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 14:28:37  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 14:28:41  Test Passed: verifyActivityFiltering
+2025-10-05 14:28:48  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 14:28:52  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 14:28:52  Test Passed: transferInputValidationCases
+2025-10-05 14:28:56  Test Passed: billPayInvalidAmount
+2025-10-05 14:29:04  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 14:29:08  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 14:29:09  Test Passed: testForgotLoginInfo
+2025-10-05 14:29:16  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 14:29:24  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 14:29:29  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 14:29:52  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (19b6b60b-c673-44db-b613-bd2a84881929)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8716, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 19b6b60b-c673-44db-b613-bd2a84881929
+2025-10-05 14:29:52  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T28_20251005_142952.png
+2025-10-05 14:30:03  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 14:30:06  Test Passed: verifyActivityFiltering
+2025-10-05 14:30:13  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (b332888d886a00b460ddf0dd5ee327a3)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56445/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b332888d886a00b460ddf0dd5ee327a3
+2025-10-05 14:30:13  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_143013.png
+2025-10-05 14:30:16  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 14:30:21  Test Passed: verifyActivityFiltering
+2025-10-05 14:30:23  Starting Test: updateProfile [thread=27]
+2025-10-05 14:30:32  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 14:30:33  Test Failed: updateProfile | reason: expected [true] but found [false]
+2025-10-05 14:30:33  Screenshot saved: D:\Capstone\automation\output\screenshots\updateProfile_FAIL_T27_20251005_143033.png
+2025-10-05 14:30:37  Test Passed: billPayInvalidAmount
+2025-10-05 14:30:41  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 14:30:50  Test Passed: verifyOpenNewAccount
+2025-10-05 14:30:51  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 14:30:53  Test Passed: testForgotLoginInfo
+2025-10-05 14:30:59  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 14:31:06  Test Passed: verifyOpenNewAccount
+2025-10-05 14:31:07  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 14:31:15  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 14:31:15  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 14:31:28  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 14:31:39  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 14:31:44  Starting Test: responsiveness [thread=27]
+2025-10-05 14:31:44  Test Passed: responsiveness
+2025-10-05 14:31:47  Starting Test: responsiveness [thread=27]
+2025-10-05 14:31:50  Test Passed: responsiveness
+2025-10-05 14:31:54  Starting Test: responsiveness [thread=27]
+2025-10-05 14:31:56  Test Passed: responsiveness
+2025-10-05 14:32:02  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 14:32:06  Test Passed: transferShowsConfirmationMessage
+2025-10-05 14:32:10  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 14:32:12  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (facf0b15-eac8-4dfd-bb6c-51e76d56521a)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17336, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: facf0b15-eac8-4dfd-bb6c-51e76d56521a
+2025-10-05 14:32:12  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_143212.png
+2025-10-05 14:32:13  Test Passed: verifyBalanceCalculations
+2025-10-05 14:32:19  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 14:32:25  Starting Test: updateProfile [thread=28]
+2025-10-05 14:32:27  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 14:32:29  Test Passed: updateProfile
+2025-10-05 14:32:34  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 14:32:43  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 14:32:45  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 14:32:46  Suite finished: Chrome
+2025-10-05 14:32:46  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 14:32:46  Summary -> Total: 93 | Passed: 86 | Failed: 6 | Skipped: 0 | Pass%(all): 92.47% | Pass%(executed): 93.48%
+2025-10-05 14:32:47  Test Passed: verifyOpenNewAccount
+2025-10-05 14:32:57  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 14:33:01  Test Passed: verifyOpenNewAccount
+2025-10-05 14:33:10  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 14:33:25  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 14:33:34  Starting Test: responsiveness [thread=28]
+2025-10-05 14:33:35  Test Passed: responsiveness
+2025-10-05 14:33:44  Starting Test: responsiveness [thread=28]
+2025-10-05 14:33:45  Test Passed: responsiveness
+2025-10-05 14:33:55  Starting Test: responsiveness [thread=28]
+2025-10-05 14:33:56  Test Passed: responsiveness
+2025-10-05 14:34:06  Starting Test: transferShowsConfirmationMessage [thread=28]
+2025-10-05 14:34:10  Test Passed: transferShowsConfirmationMessage
+2025-10-05 14:34:19  Starting Test: verifyBalanceCalculations [thread=28]
+2025-10-05 14:34:22  Test Passed: verifyBalanceCalculations
+2025-10-05 14:34:31  Starting Test: verifyOverviewTotalMatchesSum [thread=28]
+2025-10-05 14:34:34  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 14:34:43  Starting Test: verifyBalancesChangeAfterTransfer [thread=28]
+2025-10-05 14:34:48  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 14:34:50  Suite finished: Firefox
+2025-10-05 14:34:50  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 14:34:50  Summary -> Total: 102 | Passed: 96 | Failed: 6 | Skipped: 0 | Pass%(all): 94.12% | Pass%(executed): 94.12%
+2025-10-05 14:45:48  Suite started: Chrome
+2025-10-05 14:45:48  Suite started: Firefox
+2025-10-05 14:45:58  Starting Test: billPayScenarios [thread=27]
+2025-10-05 14:46:05  Starting Test: billPayScenarios [thread=28]
+2025-10-05 14:46:10  Test Passed: billPayScenarios
+2025-10-05 14:46:12  Test Passed: billPayScenarios
+2025-10-05 14:46:21  Starting Test: billPayScenarios [thread=27]
+2025-10-05 14:46:25  Starting Test: billPayScenarios [thread=28]
+2025-10-05 14:46:30  Test Passed: billPayScenarios
+2025-10-05 14:46:31  Test Passed: billPayScenarios
+2025-10-05 14:46:36  Starting Test: requestLoan [thread=27]
+2025-10-05 14:46:44  Test Passed: requestLoan
+2025-10-05 14:46:45  Starting Test: requestLoan [thread=28]
+2025-10-05 14:46:50  Test Passed: requestLoan
+2025-10-05 14:46:52  Starting Test: testRegistration [thread=27]
+2025-10-05 14:47:00  Test Passed: testRegistration
+2025-10-05 14:47:04  Starting Test: testRegistration [thread=28]
+2025-10-05 14:47:10  Test Passed: testRegistration
+2025-10-05 14:47:11  Starting Test: testRegistration [thread=27]
+2025-10-05 14:47:20  Test Passed: testRegistration
+2025-10-05 14:47:23  Starting Test: testRegistration [thread=28]
+2025-10-05 14:47:29  Test Passed: testRegistration
+2025-10-05 14:47:30  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:47:34  Test Passed: testSuccessfulLogin
+2025-10-05 14:47:40  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:47:40  Test Passed: testSuccessfulLogin
+2025-10-05 14:47:44  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:47:47  Test Passed: testSuccessfulLogin
+2025-10-05 14:47:51  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:47:51  Test Passed: testSuccessfulLogin
+2025-10-05 14:47:56  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:47:56  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:01  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:48:01  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:05  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:48:05  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:12  Starting Test: testSuccessfulLogin [thread=27]
+2025-10-05 14:48:12  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:16  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:48:16  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:24  Starting Test: transferFunds [thread=27]
+2025-10-05 14:48:29  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:48:29  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:33  Test Passed: transferFunds
+2025-10-05 14:48:38  Starting Test: transferFunds [thread=27]
+2025-10-05 14:48:45  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:48:45  Test Passed: testSuccessfulLogin
+2025-10-05 14:48:57  Starting Test: testSuccessfulLogin [thread=28]
+2025-10-05 14:48:57  Test Passed: testSuccessfulLogin
+2025-10-05 14:49:06  Test Failed: transferFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7f73425ceea52922f8e26e9d9ac54e4b)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58317/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f73425ceea52922f8e26e9d9ac54e4b
+2025-10-05 14:49:07  Screenshot saved: D:\Capstone\automation\output\screenshots\transferFunds_FAIL_T27_20251005_144907.png
+2025-10-05 14:49:08  Starting Test: transferFunds [thread=28]
+2025-10-05 14:49:13  Test Passed: transferFunds
+2025-10-05 14:49:16  Starting Test: verifyAccountOverview [thread=27]
+2025-10-05 14:49:19  Test Passed: verifyAccountOverview
+2025-10-05 14:49:26  Starting Test: findTransactions [thread=27]
+2025-10-05 14:49:28  Starting Test: transferFunds [thread=28]
+2025-10-05 14:49:34  Test Passed: transferFunds
+2025-10-05 14:49:38  Test Passed: findTransactions
+2025-10-05 14:49:48  Starting Test: findTransactions [thread=27]
+2025-10-05 14:49:53  Starting Test: verifyAccountOverview [thread=28]
+2025-10-05 14:49:56  Test Passed: verifyAccountOverview
+2025-10-05 14:50:00  Test Passed: findTransactions
+2025-10-05 14:50:09  Starting Test: paymentHistory [thread=27]
+2025-10-05 14:50:13  Starting Test: findTransactions [thread=28]
+2025-10-05 14:50:23  Test Passed: findTransactions
+2025-10-05 14:50:33  Test Passed: paymentHistory
+2025-10-05 14:50:34  Starting Test: findTransactions [thread=28]
+2025-10-05 14:50:42  Starting Test: paymentHistory [thread=27]
+2025-10-05 14:50:43  Test Passed: findTransactions
+2025-10-05 14:50:44  Test Failed: paymentHistory | reason: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ab7d24b1631899fa4c5b036c0a8b975, isElementDisplayed {id=f.67661563E98F6113508CBEF160566EC8.d.134E82C9884AF7A03AF55F7D2C14149D.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58808}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58808/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6ab7d24b1631899fa4c5b036c0a8b975)] -> link text: Bill Pay]
+Session ID: 6ab7d24b1631899fa4c5b036c0a8b975
+2025-10-05 14:50:44  Screenshot saved: D:\Capstone\automation\output\screenshots\paymentHistory_FAIL_T27_20251005_145044.png
+2025-10-05 14:50:51  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:50:51  Test Passed: testBlankLogin
+2025-10-05 14:50:56  Starting Test: paymentHistory [thread=28]
+2025-10-05 14:51:04  Test Passed: paymentHistory
+2025-10-05 14:51:06  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:51:06  Test Passed: testBlankLogin
+2025-10-05 14:51:12  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:51:12  Test Passed: testBlankLogin
+2025-10-05 14:51:17  Starting Test: paymentHistory [thread=28]
+2025-10-05 14:51:20  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:51:20  Test Passed: testBlankLogin
+2025-10-05 14:51:26  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:51:26  Test Passed: testBlankLogin
+2025-10-05 14:51:27  Test Passed: paymentHistory
+2025-10-05 14:51:31  Starting Test: testBlankLogin [thread=27]
+2025-10-05 14:51:32  Test Passed: testBlankLogin
+2025-10-05 14:51:38  Starting Test: testRegistrationRequiredValidation [thread=27]
+2025-10-05 14:51:42  Test Passed: testRegistrationRequiredValidation
+2025-10-05 14:51:43  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:51:43  Test Passed: testBlankLogin
+2025-10-05 14:51:52  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 14:51:57  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:51:57  Test Passed: testBlankLogin
+2025-10-05 14:52:10  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:52:10  Test Passed: testBlankLogin
+2025-10-05 14:52:15  Test Passed: transferTransactionHistory
+2025-10-05 14:52:21  Starting Test: transferTransactionHistory [thread=27]
+2025-10-05 14:52:25  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:52:25  Test Passed: testBlankLogin
+2025-10-05 14:52:36  Test Passed: transferTransactionHistory
+2025-10-05 14:52:39  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:52:39  Test Passed: testBlankLogin
+2025-10-05 14:52:48  Starting Test: verifyAccountDetailsPage [thread=27]
+2025-10-05 14:52:53  Starting Test: testBlankLogin [thread=28]
+2025-10-05 14:52:54  Test Passed: testBlankLogin
+2025-10-05 14:52:55  Test Passed: verifyAccountDetailsPage
+2025-10-05 14:53:02  Starting Test: billPayRequiredFieldValidation [thread=27]
+2025-10-05 14:53:07  Starting Test: testRegistrationRequiredValidation [thread=28]
+2025-10-05 14:53:09  Test Passed: testRegistrationRequiredValidation
+2025-10-05 14:53:12  Test Passed: billPayRequiredFieldValidation
+2025-10-05 14:53:17  Starting Test: contactForm [thread=27]
+2025-10-05 14:53:23  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 14:53:24  Test Passed: contactForm
+2025-10-05 14:53:30  Test Passed: transferTransactionHistory
+2025-10-05 14:53:31  Starting Test: testLogout [thread=27]
+2025-10-05 14:53:34  Test Passed: testLogout
+2025-10-05 14:53:40  Starting Test: testRegistrationPasswordMismatch_clean [thread=27]
+2025-10-05 14:53:43  Starting Test: transferTransactionHistory [thread=28]
+2025-10-05 14:53:48  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 14:53:51  Test Passed: transferTransactionHistory
+2025-10-05 14:53:54  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 14:53:54  Test Passed: transferInputValidationCases
+2025-10-05 14:53:59  Starting Test: transferInputValidationCases [thread=27]
+2025-10-05 14:54:07  Starting Test: verifyAccountDetailsPage [thread=28]
+2025-10-05 14:54:10  Test Passed: verifyAccountDetailsPage
+2025-10-05 14:54:22  Starting Test: billPayRequiredFieldValidation [thread=28]
+2025-10-05 14:54:25  Test Passed: billPayRequiredFieldValidation
+2025-10-05 14:54:35  Starting Test: contactForm [thread=28]
+2025-10-05 14:54:36  Test Passed: contactForm
+2025-10-05 14:54:46  Starting Test: testLogout [thread=28]
+2025-10-05 14:54:48  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (4885203bc46b0d2010a40e034500bdae)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52139/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4885203bc46b0d2010a40e034500bdae
+2025-10-05 14:54:49  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T27_20251005_145449.png
+2025-10-05 14:54:49  Test Passed: testLogout
+2025-10-05 14:54:53  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 14:54:59  Test Passed: verifyActivityFiltering
+2025-10-05 14:55:02  Starting Test: testRegistrationPasswordMismatch_clean [thread=28]
+2025-10-05 14:55:05  Test Passed: testRegistrationPasswordMismatch_clean
+2025-10-05 14:55:10  Starting Test: verifyActivityFiltering [thread=27]
+2025-10-05 14:55:15  Test Passed: verifyActivityFiltering
+2025-10-05 14:55:19  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 14:55:19  Test Passed: transferInputValidationCases
+2025-10-05 14:55:27  Starting Test: billPayInvalidAmount [thread=27]
+2025-10-05 14:55:31  Starting Test: transferInputValidationCases [thread=28]
+2025-10-05 14:55:38  Test Passed: billPayInvalidAmount
+2025-10-05 14:55:42  Starting Test: testForgotLoginInfo [thread=27]
+2025-10-05 14:55:45  Test Passed: testForgotLoginInfo
+2025-10-05 14:55:49  Starting Test: testRegistrationDuplicateUsername [thread=27]
+2025-10-05 14:55:57  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 14:56:01  Starting Test: transferInsufficientFunds [thread=27]
+2025-10-05 14:56:15  Test Failed: transferInputValidationCases | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (857be4e9-4059-4cec-adf6-621dab0077b3)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2376, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 857be4e9-4059-4cec-adf6-621dab0077b3
+2025-10-05 14:56:15  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInputValidationCases_FAIL_T28_20251005_145615.png
+2025-10-05 14:56:25  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 14:56:28  Test Passed: verifyActivityFiltering
+2025-10-05 14:56:37  Starting Test: verifyActivityFiltering [thread=28]
+2025-10-05 14:56:41  Test Passed: verifyActivityFiltering
+2025-10-05 14:56:45  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (d9d2a2c150a5014e64b6ad36f1238703)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52763/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9d2a2c150a5014e64b6ad36f1238703
+2025-10-05 14:56:45  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T27_20251005_145645.png
+2025-10-05 14:56:50  Starting Test: billPayInvalidAmount [thread=28]
+2025-10-05 14:56:54  Starting Test: updateProfile [thread=27]
+2025-10-05 14:56:56  Test Passed: billPayInvalidAmount
+2025-10-05 14:57:00  Test Passed: updateProfile
+2025-10-05 14:57:08  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 14:57:12  Starting Test: testForgotLoginInfo [thread=28]
+2025-10-05 14:57:15  Test Passed: verifyOpenNewAccount
+2025-10-05 14:57:15  Test Passed: testForgotLoginInfo
+2025-10-05 14:57:20  Starting Test: verifyOpenNewAccount [thread=27]
+2025-10-05 14:57:28  Starting Test: testRegistrationDuplicateUsername [thread=28]
+2025-10-05 14:57:28  Test Passed: verifyOpenNewAccount
+2025-10-05 14:57:35  Starting Test: billPayConfirmationIncludesPayeeName [thread=27]
+2025-10-05 14:57:36  Test Passed: testRegistrationDuplicateUsername
+2025-10-05 14:57:49  Starting Test: transferInsufficientFunds [thread=28]
+2025-10-05 14:57:53  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 14:57:57  Starting Test: responsiveness [thread=27]
+2025-10-05 14:57:59  Test Passed: responsiveness
+2025-10-05 14:58:04  Starting Test: responsiveness [thread=27]
+2025-10-05 14:58:05  Test Passed: responsiveness
+2025-10-05 14:58:09  Starting Test: responsiveness [thread=27]
+2025-10-05 14:58:09  Test Passed: responsiveness
+2025-10-05 14:58:15  Starting Test: transferShowsConfirmationMessage [thread=27]
+2025-10-05 14:58:19  Test Passed: transferShowsConfirmationMessage
+2025-10-05 14:58:24  Starting Test: verifyBalanceCalculations [thread=27]
+2025-10-05 14:58:27  Test Passed: verifyBalanceCalculations
+2025-10-05 14:58:31  Starting Test: verifyOverviewTotalMatchesSum [thread=27]
+2025-10-05 14:58:32  Test Failed: transferInsufficientFunds | reason: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (c04b5173-300b-4c03-9e25-a98c40461675)] -> css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c04b5173-300b-4c03-9e25-a98c40461675
+2025-10-05 14:58:32  Screenshot saved: D:\Capstone\automation\output\screenshots\transferInsufficientFunds_FAIL_T28_20251005_145832.png
+2025-10-05 14:58:34  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 14:58:38  Starting Test: verifyBalancesChangeAfterTransfer [thread=27]
+2025-10-05 14:58:45  Starting Test: updateProfile [thread=28]
+2025-10-05 14:58:49  Test Passed: updateProfile
+2025-10-05 14:58:53  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 14:58:55  Suite finished: Chrome
+2025-10-05 14:58:55  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 14:58:55  Summary -> Total: 92 | Passed: 86 | Failed: 6 | Skipped: 0 | Pass%(all): 93.48% | Pass%(executed): 93.48%
+2025-10-05 14:59:02  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 14:59:06  Test Passed: verifyOpenNewAccount
+2025-10-05 14:59:15  Starting Test: verifyOpenNewAccount [thread=28]
+2025-10-05 14:59:19  Test Passed: verifyOpenNewAccount
+2025-10-05 14:59:28  Starting Test: billPayConfirmationIncludesPayeeName [thread=28]
+2025-10-05 14:59:43  Test Passed: billPayConfirmationIncludesPayeeName
+2025-10-05 14:59:51  Starting Test: responsiveness [thread=28]
+2025-10-05 14:59:53  Test Passed: responsiveness
+2025-10-05 15:00:02  Starting Test: responsiveness [thread=28]
+2025-10-05 15:00:03  Test Passed: responsiveness
+2025-10-05 15:00:12  Starting Test: responsiveness [thread=28]
+2025-10-05 15:00:13  Test Passed: responsiveness
+2025-10-05 15:00:23  Starting Test: transferShowsConfirmationMessage [thread=28]
+2025-10-05 15:00:27  Test Passed: transferShowsConfirmationMessage
+2025-10-05 15:00:36  Starting Test: verifyBalanceCalculations [thread=28]
+2025-10-05 15:00:39  Test Passed: verifyBalanceCalculations
+2025-10-05 15:00:49  Starting Test: verifyOverviewTotalMatchesSum [thread=28]
+2025-10-05 15:00:51  Test Passed: verifyOverviewTotalMatchesSum
+2025-10-05 15:01:02  Starting Test: verifyBalancesChangeAfterTransfer [thread=28]
+2025-10-05 15:01:07  Test Passed: verifyBalancesChangeAfterTransfer
+2025-10-05 15:01:08  Suite finished: Firefox
+2025-10-05 15:01:08  Reports available in: D:\Capstone\automation\test-output
+2025-10-05 15:01:08  Summary -> Total: 102 | Passed: 96 | Failed: 6 | Skipped: 0 | Pass%(all): 94.12% | Pass%(executed): 94.12%

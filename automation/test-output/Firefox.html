@@ -1,0 +1,440 @@
+<html>
+<head>
+<title>TestNG:  Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 05 14:19:09 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>940 seconds (940361 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferInputValidationCases()'><b>transferInputValidationCases</b><br>Test class: com.parabank.tests.TransferTests<br>Test method: Transfer validation: non-numeric and blank amounts are rejected<br>Parameters: john, demo, 0, Validation</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (19b6b60b-c673-44db-b613-bd2a84881929)] -&gt; css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8716, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 19b6b60b-c673-44db-b613-bd2a84881929
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.pages.BasePage.getText(BasePage.java:39)
+	at com.parabank.pages.TransferFundsPage.getConfirmation(TransferFundsPage.java:87)
+	at com.parabank.tests.TransferTests.transferInputValidationCases(TransferTests.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace96049931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace96049931'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (19b6b60b-c673-44db-b613-bd2a84881929)] -&gt; css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8716, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 19b6b60b-c673-44db-b613-bd2a84881929
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.pages.BasePage.getText(BasePage.java:39)
+	at com.parabank.pages.TransferFundsPage.getConfirmation(TransferFundsPage.java:87)
+	at com.parabank.tests.TransferTests.transferInputValidationCases(TransferTests.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>44</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferInsufficientFunds()'><b>transferInsufficientFunds</b><br>Test class: com.parabank.tests.TransferTests<br>Test method: Transfer insufficient funds is rejected</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (facf0b15-eac8-4dfd-bb6c-51e76d56521a)] -&gt; css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17336, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: facf0b15-eac8-4dfd-bb6c-51e76d56521a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.pages.BasePage.getText(BasePage.java:39)
+	at com.parabank.pages.TransferFundsPage.getConfirmation(TransferFundsPage.java:87)
+	at com.parabank.tests.TransferTests.transferInsufficientFunds(TransferTests.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace468023531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace468023531'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (facf0b15-eac8-4dfd-bb6c-51e76d56521a)] -&gt; css selector: #rightPanel .title] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17336, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: facf0b15-eac8-4dfd-bb6c-51e76d56521a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.pages.BasePage.getText(BasePage.java:39)
+	at com.parabank.pages.TransferFundsPage.getConfirmation(TransferFundsPage.java:87)
+	at com.parabank.tests.TransferTests.transferInsufficientFunds(TransferTests.java:138)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>43</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, , failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.paymentHistory()'><b>paymentHistory</b><br>Test class: com.parabank.tests.BillPayTests<br>Parameters: john, demo, 5</td>
+<td></td>
+<td>7</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.findTransactions()'><b>findTransactions</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: john, demo, 5</td>
+<td></td>
+<td>8</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.billPayScenarios()'><b>billPayScenarios</b><br>Test class: com.parabank.tests.BillPayTests<br>Parameters: john, demo, Sohail Utilities, 1 Jubillee hills, Hyderabad, TG, 500716, 9900111234, 123456, 7.50, success</td>
+<td></td>
+<td>5</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.billPayRequiredFieldValidation()'><b>billPayRequiredFieldValidation</b><br>Test class: com.parabank.tests.BillPayTests<br>Test method: Bill Pay validation: required fields</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.responsiveness()'><b>responsiveness</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: 768, 1024</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testForgotLoginInfo()'><b>testForgotLoginInfo</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: Sohail, Khan, 123 Main St, Hyderabad, TG, 590210, 123-45-6789</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testBlankLogin()'><b>testBlankLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: , demo, failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, wrongpass, failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferShowsConfirmationMessage()'><b>transferShowsConfirmationMessage</b><br>Test class: com.parabank.tests.TransferTests<br>Test method: Transfer success shows explicit confirmation text when valid</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyAccountOverview()'><b>verifyAccountOverview</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferInputValidationCases()'><b>transferInputValidationCases</b><br>Test class: com.parabank.tests.TransferTests<br>Test method: Transfer validation: non-numeric and blank amounts are rejected<br>Parameters: john, demo, 5, success</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.responsiveness()'><b>responsiveness</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: 375, 812</td>
+<td></td>
+<td>1</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, demo, success</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.RegistrationTests.testRegistrationPasswordMismatch_clean()'><b>testRegistrationPasswordMismatch_clean</b><br>Test class: com.parabank.tests.RegistrationTests<br>Test method: Registration should block password mismatch</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.RegistrationTests@740773a3</td></tr>
+<tr>
+<td title='com.parabank.tests.RegistrationTests.testRegistrationDuplicateUsername()'><b>testRegistrationDuplicateUsername</b><br>Test class: com.parabank.tests.RegistrationTests<br>Test method: Registration duplicate username should fail</td>
+<td></td>
+<td>7</td>
+<td>com.parabank.tests.RegistrationTests@740773a3</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.requestLoan()'><b>requestLoan</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: john, demo, 500, 50</td>
+<td></td>
+<td>5</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testBlankLogin()'><b>testBlankLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, wrongpass, failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyActivityFiltering()'><b>verifyActivityFiltering</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo, January</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.billPayConfirmationIncludesPayeeName()'><b>billPayConfirmationIncludesPayeeName</b><br>Test class: com.parabank.tests.BillPayTests<br>Test method: Bill Pay confirmation includes payee name when successful</td>
+<td></td>
+<td>14</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: , demo, failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.RegistrationTests.testRegistrationRequiredValidation()'><b>testRegistrationRequiredValidation</b><br>Test class: com.parabank.tests.RegistrationTests<br>Test method: Registration required-field validation shows an error</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.RegistrationTests@740773a3</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testBlankLogin()'><b>testBlankLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: invalidUser, demo, failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyOpenNewAccount()'><b>verifyOpenNewAccount</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo, CHECKING</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferFunds()'><b>transferFunds</b><br>Test class: com.parabank.tests.TransferTests<br>Parameters: john, demo, 0, Validation</td>
+<td></td>
+<td>5</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyAccountDetailsPage()'><b>verifyAccountDetailsPage</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.billPayScenarios()'><b>billPayScenarios</b><br>Test class: com.parabank.tests.BillPayTests<br>Parameters: john, demo, , , Vizag, TG, 500816, 8877665544, 123456, , validation</td>
+<td></td>
+<td>5</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyOpenNewAccount()'><b>verifyOpenNewAccount</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo, SAVINGS</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: invalidUser, demo, failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferTransactionHistory()'><b>transferTransactionHistory</b><br>Test class: com.parabank.tests.TransferTests<br>Parameters: john, demo, 5</td>
+<td></td>
+<td>7</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.billPayInvalidAmount()'><b>billPayInvalidAmount</b><br>Test class: com.parabank.tests.BillPayTests<br>Test method: Bill Pay invalid amount is rejected</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.parabank.tests.RegistrationTests<br>Parameters: Adeena, Noren, 22 Khan Street, Vizag, AP, 10001, 8551232222, 222-33-4444, alex{uniq}, Pass@123</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.RegistrationTests@740773a3</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.contactForm()'><b>contactForm</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: John Tester, john.tester@example.com, 9912345213, Need help with recent transaction.</td>
+<td></td>
+<td>1</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferFunds()'><b>transferFunds</b><br>Test class: com.parabank.tests.TransferTests<br>Parameters: john, demo, 5, success</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.TransferTests.transferTransactionHistory()'><b>transferTransactionHistory</b><br>Test class: com.parabank.tests.TransferTests<br>Parameters: john, demo, 7.50</td>
+<td></td>
+<td>7</td>
+<td>com.parabank.tests.TransferTests@55740540</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: , , failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testBlankLogin()'><b>testBlankLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: , , failure</td>
+<td></td>
+<td>1</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyOverviewTotalMatchesSum()'><b>verifyOverviewTotalMatchesSum</b><br>Test class: com.parabank.tests.AccountTests<br>Test method: Overview total equals the sum of account balances (within cents tolerance)</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.responsiveness()'><b>responsiveness</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: 1280, 800</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyActivityFiltering()'><b>verifyActivityFiltering</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo, All</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyBalanceCalculations()'><b>verifyBalanceCalculations</b><br>Test class: com.parabank.tests.AccountTests<br>Parameters: john, demo</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.findTransactions()'><b>findTransactions</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: john, demo, 7.50</td>
+<td></td>
+<td>9</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.RegistrationTests.testRegistration()'><b>testRegistration</b><br>Test class: com.parabank.tests.RegistrationTests<br>Parameters: Sohail, khan, 10 MK Street, Warangal, TG, 90210, 9551231111, 111-22-3333, user{uniq}, Pass@123</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.RegistrationTests@740773a3</td></tr>
+<tr>
+<td title='com.parabank.tests.BillPayTests.paymentHistory()'><b>paymentHistory</b><br>Test class: com.parabank.tests.BillPayTests<br>Parameters: john, demo, 7.50</td>
+<td></td>
+<td>8</td>
+<td>com.parabank.tests.BillPayTests@60015ef5</td></tr>
+<tr>
+<td title='com.parabank.tests.LoanTests.updateProfile()'><b>updateProfile</b><br>Test class: com.parabank.tests.LoanTests<br>Parameters: john, demo, 99 Jubilee Hills, Hyderabad, TG, 590210, 5559876543</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.LoanTests@2f54a33d</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testBlankLogin()'><b>testBlankLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, demo, success</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testBlankLogin()'><b>testBlankLogin</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, , failure</td>
+<td></td>
+<td>0</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.LoginTests.testLogout()'><b>testLogout</b><br>Test class: com.parabank.tests.LoginTests<br>Parameters: john, demo</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.LoginTests@7748410a</td></tr>
+<tr>
+<td title='com.parabank.tests.AccountTests.verifyBalancesChangeAfterTransfer()'><b>verifyBalancesChangeAfterTransfer</b><br>Test class: com.parabank.tests.AccountTests<br>Test method: Balances adjust after a small transfer</td>
+<td></td>
+<td>4</td>
+<td>com.parabank.tests.AccountTests@37f1104d</td></tr>
+</table><p>
+</body>
+</html>
